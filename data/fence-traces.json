@@ -1,0 +1,57 @@
+{
+  "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references",
+  "imageSize": [1927, 1279],
+  "originalImageSize": [2238, 1486],
+  "imageToGround": [[0.38960928275683404, -0.016414487557019013, -365.8705762527271], [0.018926477868100186, 0.39354363894702316, -272.71602250122237], [0.000006192804273326347, 0.0000532904853725045, 0.9595633749715589]],
+  "registration": {
+    "method": "Ground-plane projective registration using five distributed campus boundary vertices; hand-drawn positions remain approximate.",
+    "controlPoints": [
+      {"world": [-253.76, -21.23], "pixel": [316, 624]},
+      {"world": [-276.51, 162.74], "pixel": [263, 1102]},
+      {"world": [191.32, 220.63], "pixel": [1497, 1201]},
+      {"world": [281.27, -118.31], "pixel": [1662, 313]},
+      {"world": [273.48, -230.1], "pixel": [1626, 49]}
+    ]
+  },
+  "decisions": [
+    "Only the blue lines in this overview define fences; remove every superseded fence.",
+    "Tennis is closed and shares its east fence with the campus perimeter, with no duplicate fence.",
+    "Visible gaps are entrances. Science north has only the gap between the two horizontal sections; its east horizontal connects to the Cafeteria vertical.",
+    "The entire short vertical at the Language Center label is closed.",
+    "The west parking arrow denotes a line, not triangular fence branches.",
+    "Building attachment points may snap to the indicated building wall within 6 metres to account for roof parallax."
+  ],
+  "walkArrivalOverrides": {"tennis": [201, -115]},
+  "fences": [
+    {"id":"vista-north-perimeter","label":"Vista Lane 北侧长围栏","points":[[326,621],[1626,49]],"kind":"chain","height":2.1},
+    {"id":"northeast-perimeter-link","label":"东北边界至网球场","points":[[1626,49],[1641.06,181]],"kind":"chain","height":2.1},
+    {"id":"tennis-enclosure","label":"网球场闭合围栏","points":[[1641.06,181],[1590,183],[1538,179],[1477,170],[1468,346],[1530,357],[1614,365],[1624,358],[1641,340],[1656,314]],"closed":true,"kind":"chain","height":3.2},
+    {"id":"cedar-parking-west","label":"东北停车场北侧及西侧","points":[[1614,365],[1594,376],[1553,386],[1508,386],[1501,550]],"kind":"chain","height":2.1},
+    {"id":"cedar-parking-east","label":"东北停车场东侧","points":[[1594,376],[1594,571]],"kind":"chain","height":2.1},
+    {"id":"music-roadside-frontage","label":"音乐教室临街及办公室前横栏","points":[[1590,596],[1591,628],[1585,677],[1571,752],[1438,752]],"kind":"picket","height":2.1},
+    {"id":"music-courtyard-return","label":"音乐教室院内短横栏","points":[[1529,723],[1576.8,723]],"kind":"picket","height":2.1,"startBuilding":"theater"},
+    {"id":"gym-music-link","label":"体育馆与音乐教室间短栏","points":[[1361,578],[1378,578]],"kind":"picket","height":2.1,"endBuilding":"theater"},
+    {"id":"baseball-west-curve","label":"中部棒球场西侧短栏","points":[[748,490],[740,523],[736,550],[737,569]],"kind":"chain","height":2.1,"endBuilding":"way-470980992"},
+    {"id":"baseball-north-west","label":"中部棒球场北侧左段","points":[[775,477],[848,477]],"kind":"chain","height":2.1,"endBuilding":"way-470981019"},
+    {"id":"baseball-north-east","label":"中部棒球场北侧及东侧","points":[[873,473],[984,473],[969,673]],"kind":"chain","height":2.1,"startBuilding":"way-470981019"},
+    {"id":"baseball-gym-link","label":"棒球场至体育馆短横栏","points":[[986,673],[1004,673],[1007,677],[1022,677],[1048,673],[1056,673]],"kind":"chain","height":2.1,"endBuilding":"boys-lockers"},
+    {"id":"stadium-east-north-gap","label":"体育场东侧北段","points":[[733,728],[724,777]],"kind":"chain","height":2.1,"startBuilding":"way-470980639"},
+    {"id":"stadium-east-south-gap","label":"体育场东侧南段","points":[[685,981],[674,1023]],"kind":"chain","height":2.1,"startBuilding":"way-470980963"},
+    {"id":"stadium-southeast-link","label":"体育场东南建筑间短栏","points":[[691,1058],[677,1083]],"kind":"chain","height":2.1,"startBuilding":"way-470981092","endBuilding":"way-470981119"},
+    {"id":"stadium-south-boundary","label":"体育场南侧折线围栏","points":[[658,1108],[637,1123],[510,1114],[365,1099]],"kind":"chain","height":2.1,"startBuilding":"way-470981119"},
+    {"id":"stadium-west-lower","label":"体育场西停车场下段","points":[[287,916],[286,1087]],"kind":"chain","height":2.1},
+    {"id":"stadium-west-upper","label":"体育场西停车场上段","points":[[329,683],[309,839]],"kind":"chain","height":2.1},
+    {"id":"science-parking-north-west","label":"科学教室停车区西侧及北侧","points":[[965,760],[894,772],[775,773],[752,945]],"kind":"chain","height":2.1},
+    {"id":"science-entry-west","label":"科学教室入口左段","points":[[916,855],[933,856],[952,860]],"kind":"picket","height":2.1,"startBuilding":"class77"},
+    {"id":"science-entry-east","label":"科学教室入口右段及食堂连接","points":[[964,863],[1013,863],[1013,821]],"kind":"picket","height":2.1,"endBuilding":"cafeteria"},
+    {"id":"main-entrance-closed","label":"语言中心标签处封闭短栏","points":[[1438,870],[1438,902]],"kind":"picket","height":2.2,"startBuilding":"admin","endBuilding":"business"},
+    {"id":"language-east-link","label":"语言教室东侧连接","points":[[1500,927],[1500,970]],"kind":"picket","height":2.1,"startBuilding":"business","endBuilding":"class5"},
+    {"id":"math-east-link","label":"数学教室东侧连接","points":[[1501,999],[1481,1067]],"kind":"picket","height":2.1,"startBuilding":"class5","endBuilding":"class10"},
+    {"id":"art-north-courtyard","label":"艺术教室北侧庭院横栏","points":[[899,1038],[980,1038]],"kind":"picket","height":2.1,"startBuilding":"class60","endBuilding":"way-470981322"},
+    {"id":"art-south-boundary","label":"艺术教室南侧横栏","points":[[881,1159],[998,1159],[1051,1159]],"kind":"picket","height":2.1,"startBuilding":"south-classrooms","endBuilding":"way-470981048"},
+    {"id":"art-courtyard-divider","label":"艺术教室南侧竖向分隔","points":[[998,1117],[998,1159],[998,1166]],"kind":"picket","height":2.1,"startBuilding":"way-470981322"},
+    {"id":"new-building-west-link","label":"新楼西侧弧形围栏","points":[[1076,1163],[1098,1173],[1124,1180],[1142,1180],[1157,1178]],"kind":"picket","height":2.1,"startBuilding":"way-470981048","endBuilding":"way-470980972"},
+    {"id":"new-building-east-link","label":"新楼东侧斜向围栏","points":[[1311,1190],[1381,1168]],"kind":"picket","height":2.1,"startBuilding":"way-470980972","endBuilding":"class15"},
+    {"id":"math-south-link","label":"数学教室南侧弧形围栏","points":[[1401,1170],[1420,1173],[1437,1171],[1451,1166]],"kind":"picket","height":2.1,"startBuilding":"class15","endBuilding":"class10"}
+  ]
+}

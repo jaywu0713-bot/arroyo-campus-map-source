@@ -1,0 +1,692 @@
+{
+  "revision": "blue-overview-11fb8e0690eb",
+  "note": "Generated from fence-traces.json. Only these blue-reference paths are fences. Collision derives from these same points at runtime.",
+  "walkArrivalOverrides": {
+    "tennis": [
+      201,
+      -115
+    ]
+  },
+  "fences": [
+    {
+      "id": "vista-north-perimeter",
+      "label": "Vista Lane 北侧长围栏",
+      "points": [
+        [
+          -250.38,
+          -22.27
+        ],
+        [
+          274.45,
+          -229.01
+        ]
+      ],
+      "kind": "chain",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "northeast-perimeter-link",
+      "label": "东北边界至网球场",
+      "points": [
+        [
+          274.45,
+          -229.01
+        ],
+        [
+          276.23,
+          -174.01
+        ]
+      ],
+      "kind": "chain",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "tennis-enclosure",
+      "label": "网球场闭合围栏",
+      "points": [
+        [
+          276.23,
+          -174.01
+        ],
+        [
+          255.94,
+          -174.24
+        ],
+        [
+          235.44,
+          -176.94
+        ],
+        [
+          211.49,
+          -181.9
+        ],
+        [
+          203.02,
+          -110.19
+        ],
+        [
+          227.08,
+          -104.51
+        ],
+        [
+          259.82,
+          -99.62
+        ],
+        [
+          263.96,
+          -102.25
+        ],
+        [
+          271.19,
+          -109.18
+        ],
+        [
+          277.91,
+          -119.41
+        ],
+        [
+          276.23,
+          -174.01
+        ]
+      ],
+      "kind": "chain",
+      "height": 3.2,
+      "closed": true,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "cedar-parking-west",
+      "label": "东北停车场北侧及西侧",
+      "points": [
+        [
+          259.82,
+          -99.62
+        ],
+        [
+          251.64,
+          -95.58
+        ],
+        [
+          235.27,
+          -92.36
+        ],
+        [
+          217.62,
+          -93.25
+        ],
+        [
+          210.29,
+          -27.91
+        ]
+      ],
+      "kind": "chain",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "cedar-parking-east",
+      "label": "东北停车场东侧",
+      "points": [
+        [
+          251.64,
+          -95.58
+        ],
+        [
+          245.83,
+          -17.84
+        ]
+      ],
+      "kind": "chain",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "music-roadside-frontage",
+      "label": "音乐教室临街及办公室前横栏",
+      "points": [
+        [
+          243.54,
+          -8.06
+        ],
+        [
+          242.99,
+          4.53
+        ],
+        [
+          239.24,
+          23.58
+        ],
+        [
+          231.69,
+          52.47
+        ],
+        [
+          180.5,
+          50.02
+        ]
+      ],
+      "kind": "picket",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "music-courtyard-return",
+      "label": "音乐教室院内短横栏",
+      "points": [
+        [
+          215.87,
+          40.4
+        ],
+        [
+          234.75,
+          41.33
+        ]
+      ],
+      "kind": "picket",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "gym-music-link",
+      "label": "体育馆与音乐教室间短栏",
+      "points": [
+        [
+          155.09,
+          -19.51
+        ],
+        [
+          166.52,
+          -18.93
+        ]
+      ],
+      "kind": "picket",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "baseball-west-curve",
+      "label": "中部棒球场西侧短栏",
+      "points": [
+        [
+          -83.29,
+          -66.37
+        ],
+        [
+          -86.84,
+          -53.31
+        ],
+        [
+          -88.73,
+          -42.62
+        ],
+        [
+          -89.57,
+          -32.96
+        ]
+      ],
+      "kind": "chain",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "baseball-north-west",
+      "label": "中部棒球场北侧左段",
+      "points": [
+        [
+          -72.49,
+          -71.05
+        ],
+        [
+          -43.97,
+          -67.51
+        ]
+      ],
+      "kind": "chain",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "baseball-north-east",
+      "label": "中部棒球场北侧及东侧",
+      "points": [
+        [
+          -35.42,
+          -70.91
+        ],
+        [
+          9.83,
+          -68.57
+        ],
+        [
+          0.61,
+          10.46
+        ]
+      ],
+      "kind": "chain",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "baseball-gym-link",
+      "label": "棒球场至体育馆短横栏",
+      "points": [
+        [
+          7.23,
+          10.78
+        ],
+        [
+          14.23,
+          11.12
+        ],
+        [
+          15.32,
+          12.75
+        ],
+        [
+          21.16,
+          13.03
+        ],
+        [
+          31.33,
+          11.95
+        ],
+        [
+          34.42,
+          12.37
+        ]
+      ],
+      "kind": "chain",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "stadium-east-north-gap",
+      "label": "体育场东侧北段",
+      "points": [
+        [
+          -91.99,
+          27.73
+        ],
+        [
+          -96.02,
+          46.52
+        ]
+      ],
+      "kind": "chain",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "stadium-east-south-gap",
+      "label": "体育场东侧南段",
+      "points": [
+        [
+          -113.14,
+          124.34
+        ],
+        [
+          -117.91,
+          140.08
+        ]
+      ],
+      "kind": "chain",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "stadium-southeast-link",
+      "label": "体育场东南建筑间短栏",
+      "points": [
+        [
+          -111.72,
+          153.18
+        ],
+        [
+          -117.21,
+          161.46
+        ]
+      ],
+      "kind": "chain",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "stadium-south-boundary",
+      "label": "体育场南侧折线围栏",
+      "points": [
+        [
+          -123.95,
+          170.29
+        ],
+        [
+          -133.02,
+          177.15
+        ],
+        [
+          -181.45,
+          171.55
+        ],
+        [
+          -236.87,
+          163.37
+        ]
+      ],
+      "kind": "chain",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "stadium-west-lower",
+      "label": "体育场西停车场下段",
+      "points": [
+        [
+          -266.38,
+          92.26
+        ],
+        [
+          -267.14,
+          157.45
+        ]
+      ],
+      "kind": "chain",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "stadium-west-upper",
+      "label": "体育场西停车场上段",
+      "points": [
+        [
+          -249.4,
+          2.31
+        ],
+        [
+          -257.66,
+          62.93
+        ]
+      ],
+      "kind": "chain",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "science-parking-north-west",
+      "label": "科学教室停车区西侧及北侧",
+      "points": [
+        [
+          -2.36,
+          44.37
+        ],
+        [
+          -30.04,
+          47.72
+        ],
+        [
+          -76.19,
+          45.91
+        ],
+        [
+          -87.13,
+          111.79
+        ]
+      ],
+      "kind": "chain",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "science-entry-west",
+      "label": "科学教室入口左段",
+      "points": [
+        [
+          -23.04,
+          81.87
+        ],
+        [
+          -16.24,
+          80.93
+        ],
+        [
+          -8.98,
+          82.81
+        ]
+      ],
+      "kind": "picket",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "science-entry-east",
+      "label": "科学教室入口右段及食堂连接",
+      "points": [
+        [
+          -4.4,
+          84.19
+        ],
+        [
+          14.47,
+          85.08
+        ],
+        [
+          15.15,
+          68.9
+        ]
+      ],
+      "kind": "picket",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "main-entrance-closed",
+      "label": "语言中心标签处封闭短栏",
+      "points": [
+        [
+          177.61,
+          94.46
+        ],
+        [
+          176.91,
+          104.9
+        ]
+      ],
+      "kind": "picket",
+      "height": 2.2,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "language-east-link",
+      "label": "语言教室东侧连接",
+      "points": [
+        [
+          199.87,
+          115.95
+        ],
+        [
+          198.47,
+          135.75
+        ]
+      ],
+      "kind": "picket",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "math-east-link",
+      "label": "数学教室东侧连接",
+      "points": [
+        [
+          197.89,
+          143.62
+        ],
+        [
+          190.07,
+          171.01
+        ]
+      ],
+      "kind": "picket",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "art-north-courtyard",
+      "label": "艺术教室北侧庭院横栏",
+      "points": [
+        [
+          -32.69,
+          149.68
+        ],
+        [
+          1.91,
+          151.36
+        ]
+      ],
+      "kind": "picket",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "art-south-boundary",
+      "label": "艺术教室南侧横栏",
+      "points": [
+        [
+          -40.26,
+          191.88
+        ],
+        [
+          3.83,
+          196.87
+        ],
+        [
+          26.02,
+          197.97
+        ]
+      ],
+      "kind": "picket",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "art-courtyard-divider",
+      "label": "艺术教室南侧竖向分隔",
+      "points": [
+        [
+          4.59,
+          180.09
+        ],
+        [
+          3.83,
+          196.87
+        ],
+        [
+          3.72,
+          199.48
+        ]
+      ],
+      "kind": "picket",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "new-building-west-link",
+      "label": "新楼西侧弧形围栏",
+      "points": [
+        [
+          33.36,
+          198.42
+        ],
+        [
+          41.47,
+          203.81
+        ],
+        [
+          51.18,
+          206.86
+        ],
+        [
+          57.98,
+          207.16
+        ],
+        [
+          63.92,
+          204.7
+        ]
+      ],
+      "kind": "picket",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "new-building-east-link",
+      "label": "新楼东侧斜向围栏",
+      "points": [
+        [
+          119.87,
+          211.11
+        ],
+        [
+          148.49,
+          206.9
+        ]
+      ],
+      "kind": "picket",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    },
+    {
+      "id": "math-south-link",
+      "label": "数学教室南侧弧形围栏",
+      "points": [
+        [
+          154.91,
+          207.34
+        ],
+        [
+          163.09,
+          209.33
+        ],
+        [
+          169.54,
+          208.87
+        ],
+        [
+          175.05,
+          205.74
+        ]
+      ],
+      "kind": "picket",
+      "height": 2.1,
+      "closed": false,
+      "source": "User blue-line overview, 截屏2026-09-09 下午6.36.56.png; supersedes all earlier fence references"
+    }
+  ]
+}

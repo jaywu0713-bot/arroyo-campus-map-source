@@ -1,0 +1,27 @@
+{
+  "source": "https://files.smartsites.parentsquare.com/8223/arroyo_hs-03-122086_dwg_a.pdf",
+  "sheet": "G-101, 2022, visually traced from rendering at 1880x1343; approximate registration",
+  "buildings": [
+    {"id":"gym","name":"Gymnasium","height":9,"points":[[814,575],[854,571],[894,580],[894,653],[880,678],[817,678],[817,655],[807,655],[807,641],[792,641],[792,593],[807,593],[807,580]],"category":"Athletics","description":"The gym at the northern edge of the main academic campus."},
+    {"id":"boys-lockers","name":"Boys’ locker rooms","height":4.5,"points":[[748,582],[787,582],[798,680],[713,680],[713,654],[748,654]],"category":"Athletics"},
+    {"id":"girls-lockers","name":"Girls’ locker rooms","height":4.5,"points":[[922,573],[965,579],[973,680],[930,680]],"category":"Athletics"},
+    {"id":"theater","name":"Little Theater","height":6,"points":[[1007,571],[1048,571],[1048,652],[1074,652],[1074,604],[1105,606],[1105,653],[1128,653],[1128,706],[1007,689]],"category":"Arts","description":"The existing theater complex beside Cedar Avenue. Planned replacement buildings are not included."},
+    {"id":"cafeteria","name":"Cafeteria","height":5,"points":[[670,727],[740,727],[740,751],[772,751],[772,719],[799,719],[799,779],[774,779],[774,786],[690,786],[690,776],[672,776]],"category":"Student life","description":"The cafeteria opens toward the central outdoor gathering area."},
+    {"id":"student-center","name":"Student Center","height":3.8,"points":[[825,755],[892,755],[890,778],[825,778]],"category":"Student life","description":"A central landmark between the cafeteria and academic courtyards."},
+    {"id":"career-center","name":"Career Center","height":4.2,"points":[[933,759],[975,759],[975,804],[933,804]],"category":"Student life"},
+    {"id":"admin","name":"Administration","height":4.5,"points":[[1014,719],[1069,719],[1069,740],[1044,740],[1044,798],[1051,798],[1051,817],[1011,817]],"category":"Welcome","description":"The main administration building near the Cedar Avenue entrance."},
+    {"id":"business","name":"Classrooms 1–4","height":4.5,"points":[[1008,839],[1110,839],[1110,867],[1008,867]],"category":"Learning"},
+    {"id":"class5","name":"Classrooms 5–8","height":4.5,"points":[[1008,901],[1110,901],[1110,929],[1008,929]],"category":"Learning"},
+    {"id":"class10","name":"Classrooms 10–14","height":4.5,"points":[[1065,969],[1104,969],[1104,1066],[1065,1066]],"category":"Learning"},
+    {"id":"class15","name":"Classrooms 15–19","height":4.5,"points":[[1008,969],[1040,969],[1040,1066],[1008,1066]],"category":"Learning"},
+    {"id":"class30","name":"Classrooms 30–35","height":4.5,"points":[[938,842],[969,842],[969,961],[938,961]],"category":"Learning"},
+    {"id":"class36","name":"Classrooms 36–39","height":4.5,"points":[[826,851],[910,851],[910,873],[826,873]],"category":"Learning"},
+    {"id":"class40","name":"Classrooms 40–45","height":4.5,"points":[[785,842],[815,842],[815,961],[785,961]],"category":"Learning"},
+    {"id":"media","name":"Media Center","height":5,"points":[[839,897],[878,890],[901,906],[892,940],[863,940],[861,956],[839,956]],"category":"Learning","description":"The Media Center sits between classroom rows in the academic courtyards."},
+    {"id":"class70","name":"Classrooms 70–72","height":4.5,"points":[[653,851],[735,851],[735,873],[653,873]],"category":"Learning"},
+    {"id":"class73","name":"Classrooms 73–76","height":4.5,"points":[[650,901],[735,901],[735,923],[650,923]],"category":"Learning"},
+    {"id":"class77","name":"Classrooms 77–79","height":4.5,"points":[[615,829],[644,829],[644,924],[615,924]],"category":"Learning"},
+    {"id":"weight","name":"Weight training","height":5.5,"points":[[493,930],[532,930],[532,996],[493,996]],"category":"Athletics"},
+    {"id":"class60","name":"Classrooms 60–61","height":5,"points":[[554,958],[596,958],[596,1032],[569,1032],[569,999],[554,999]],"category":"Learning"}
+  ]
+}

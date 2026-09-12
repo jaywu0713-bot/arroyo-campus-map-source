@@ -1,0 +1,34 @@
+{
+  "revision": "language-courtyard-20260910-v1",
+  "source": "User street view 2026-09-10 13.22.07, model red/blue annotation 13.23.53, aerial blue annotation 13.28.36. Approved: remove red strip through full building height; add blue rear classroom row and improve vegetation.",
+  "buildings": [
+    {"id":"class30","name":"East Classroom Row","height":3.4,"roof":"pitched","ring":[[130.33,103.81],[139.78,104.80],[134.99,153.62],[123.87,152.50]]},
+    {"id":"business","name":"Language Center","height":3.4,"roof":"pitched","ring":[[159.88,103.37],[201.19,107.07],[199.99,115.96],[158.52,112.61]]},
+    {"id":"class5","name":"Language Classrooms","height":3.4,"roof":"pitched","ring":[[156.15,133.22],[199.11,135.79],[197.89,143.62],[155.42,140.32]]},
+    {"id":"language-rear","name":"Language Center · Rear Classrooms","height":3.3,"roof":"flat","ring":[[147.72,104.40],[151.52,104.77],[147.90,141.70],[144.10,141.33]]}
+  ],
+  "lawns": [
+    {"id":"language-central-lawn","ring":[[158.8,119.2],[195.7,122.0],[194.9,130.3],[157.8,127.4]]},
+    {"id":"language-street-lawn","ring":[[200.7,118.7],[207.6,119.3],[205.9,132.2],[199.0,131.5]]},
+    {"id":"language-rear-garden","ring":[[141.6,108.0],[146.1,108.5],[142.9,139.8],[138.3,139.3]]},
+    {"id":"language-south-lawn","ring":[[157.4,143.4],[195.8,146.4],[194.9,155.0],[156.5,151.7]]}
+  ],
+  "paths": [
+    {"a":[[200.0,117.2],[208.0,117.9]],"width":1.9},
+    {"a":[[198.4,132.7],[206.1,133.4]],"width":1.9},
+    {"a":[[208.6,115.8],[206.1,135.5]],"width":1.7}
+  ],
+  "trees": [
+    {"id":"language-front-tree","p":[203.3,124.8],"height":10.2,"radius":6.2,"trunkRadius":0.48},
+    {"id":"language-court-tree","p":[188.0,125.2],"height":7.4,"radius":3.6,"trunkRadius":0.28},
+    {"id":"language-rear-tree","p":[143.2,114.0],"height":7.2,"radius":3.0,"trunkRadius":0.26},
+    {"id":"language-rear-tree-south","p":[140.8,137.0],"height":6.6,"radius":2.7,"trunkRadius":0.24},
+    {"id":"language-south-tree","p":[183.2,150.5],"height":8.0,"radius":4.1,"trunkRadius":0.34},
+    {"id":"language-south-tree-east","p":[201.2,150.5],"height":7.4,"radius":3.6,"trunkRadius":0.28}
+  ],
+  "hedges": [
+    {"a":[[199.3,138.2],[205.0,138.7]],"width":1.1,"height":0.95},
+    {"a":[[197.8,145.2],[195.9,155.1]],"width":0.95,"height":0.75},
+    {"a":[[161.0,128.0],[175.5,129.1]],"width":0.7,"height":0.6}
+  ]
+}

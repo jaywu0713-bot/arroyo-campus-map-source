@@ -1,0 +1,6015 @@
+{
+  "format": "arroyo-campus-build",
+  "version": 2,
+  "baseRevision": "7893badd574200e2",
+  "units": "meters",
+  "axes": "X-east Y-up Z-south",
+  "objects": [
+    {
+      "id": "admin",
+      "templateId": "admin",
+      "origin": "original",
+      "position": [
+        171.89580927423265,
+        0.16622222452693514,
+        71.5999984741211
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "bench-entrance-1",
+      "templateId": "bench-entrance-1",
+      "origin": "original",
+      "position": [
+        205,
+        0,
+        107
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "bench-entrance-2",
+      "templateId": "bench-entrance-2",
+      "origin": "original",
+      "position": [
+        209,
+        0.14999999105930328,
+        95.69999694824219
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "bench-entrance-3",
+      "templateId": "bench-entrance-3",
+      "origin": "original",
+      "position": [
+        212.25,
+        0.14999999105930328,
+        90
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "bench-entrance-4",
+      "templateId": "bench-entrance-4",
+      "origin": "original",
+      "position": [
+        187,
+        0.14999999105930328,
+        88
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "bench-entrance-5",
+      "templateId": "bench-entrance-5",
+      "origin": "original",
+      "position": [
+        194,
+        0.14999999105930328,
+        91
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "bench-entrance-6",
+      "templateId": "bench-entrance-6",
+      "origin": "original",
+      "position": [
+        198,
+        0,
+        85
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "bench-entrance-7",
+      "templateId": "bench-entrance-7",
+      "origin": "original",
+      "position": [
+        217,
+        0.14999999105930328,
+        77
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "bench-entrance-8",
+      "templateId": "bench-entrance-8",
+      "origin": "original",
+      "position": [
+        216.5,
+        0.14999999105930328,
+        65
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "bench-entrance-9",
+      "templateId": "bench-entrance-9",
+      "origin": "original",
+      "position": [
+        195,
+        0.5,
+        79
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "boys-lockers",
+      "templateId": "boys-lockers",
+      "origin": "original",
+      "position": [
+        55,
+        0.2199999988079071,
+        -5.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "business",
+      "templateId": "business",
+      "origin": "original",
+      "position": [
+        176.67451282966763,
+        0.10499999672174454,
+        109.60903393134338
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "cafeteria",
+      "templateId": "cafeteria",
+      "origin": "original",
+      "position": [
+        46.5,
+        0.29738371202151104,
+        48.5
+      ],
+      "rotation": [
+        0,
+        -0.12448787362040589,
+        0
+      ],
+      "scale": [
+        0.7000000000000001,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "career-center",
+      "templateId": "career-center",
+      "origin": "original",
+      "position": [
+        131.3297919702355,
+        0.2199999988079071,
+        72.40224474606856
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5802961989195703,
+        0.8242504516699258,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "class5",
+      "templateId": "class5",
+      "origin": "original",
+      "position": [
+        174.20415561863135,
+        0.10499999672174454,
+        138.41976928710938
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "class10",
+      "templateId": "class10",
+      "origin": "original",
+      "position": [
+        181.7402501980954,
+        0.2199999988079071,
+        183.82995425797293
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "class15",
+      "templateId": "class15",
+      "origin": "original",
+      "position": [
+        153.51501085994067,
+        0.2199999988079071,
+        183.77360463175322
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1.0765088922617425
+      ],
+      "deleted": false
+    },
+    {
+      "id": "class30",
+      "templateId": "class30",
+      "origin": "original",
+      "position": [
+        130.5783264980301,
+        0.10499999672174454,
+        129.34482484556136
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1.1304681077476835
+      ],
+      "deleted": false
+    },
+    {
+      "id": "class36",
+      "templateId": "class36",
+      "origin": "original",
+      "position": [
+        97.46999766714345,
+        0.2199999988079071,
+        111.01613988192547
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "class40",
+      "templateId": "class40",
+      "origin": "original",
+      "position": [
+        60.56490216008922,
+        0.2199999988079071,
+        124.29995154344975
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1.0928541491579298
+      ],
+      "deleted": false
+    },
+    {
+      "id": "class60",
+      "templateId": "class60",
+      "origin": "original",
+      "position": [
+        -40.84988844274115,
+        0.2199999988079071,
+        157.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        0.9,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "class70",
+      "templateId": "class70",
+      "origin": "original",
+      "position": [
+        20,
+        0.2199999988079071,
+        97.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "class73",
+      "templateId": "class73",
+      "origin": "original",
+      "position": [
+        15.415568716563564,
+        0.2199999988079071,
+        125.93503323767767
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "class77",
+      "templateId": "class77",
+      "origin": "original",
+      "position": [
+        -17,
+        0.2199999988079071,
+        103.01062495854316
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-art-courtyard-divider",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "original",
+      "position": [
+        4.15500009059906,
+        0.11999999731779099,
+        187
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-art-north-courtyard",
+      "templateId": "fence-art-north-courtyard",
+      "origin": "original",
+      "position": [
+        -24,
+        0.11999999731779099,
+        148
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-art-south-boundary",
+      "templateId": "fence-art-south-boundary",
+      "origin": "original",
+      "position": [
+        -7.119997978210449,
+        0.11999999731779099,
+        195
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "fence-baseball-gym-link",
+      "templateId": "fence-baseball-gym-link",
+      "origin": "original",
+      "position": [
+        34.5,
+        0.11999999731779099,
+        11
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.3870328817802918,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "fence-baseball-north-east",
+      "templateId": "fence-baseball-north-east",
+      "origin": "original",
+      "position": [
+        12.783449320322386,
+        0.11999999731779099,
+        -34.97161461594836
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-baseball-north-west",
+      "templateId": "fence-baseball-north-west",
+      "origin": "original",
+      "position": [
+        -58.22999954223633,
+        0.11999999731779099,
+        -69.28000259399414
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-baseball-west-curve",
+      "templateId": "fence-baseball-west-curve",
+      "origin": "original",
+      "position": [
+        -86.43000030517578,
+        0.11999999731779099,
+        -49.665000915527344
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-cedar-parking-east",
+      "templateId": "fence-cedar-parking-east",
+      "origin": "original",
+      "position": [
+        248.73500061035156,
+        0.11999999731779099,
+        -56.71000003814697
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-cedar-parking-west",
+      "templateId": "fence-cedar-parking-west",
+      "origin": "original",
+      "position": [
+        235.05500030517578,
+        0.11999999731779099,
+        -63.765000343322754
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-gym-music-link",
+      "templateId": "fence-gym-music-link",
+      "origin": "original",
+      "position": [
+        133.85626789298212,
+        0.11986019916726304,
+        -24.300285783480625
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        2.7132510596444317,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-language-east-link",
+      "templateId": "fence-language-east-link",
+      "origin": "original",
+      "position": [
+        196.1568554727165,
+        0.11999999731779099,
+        125.71504713030222
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-main-entrance-closed",
+      "templateId": "fence-main-entrance-closed",
+      "origin": "original",
+      "position": [
+        176,
+        0.11999999731779099,
+        106.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-math-east-link",
+      "templateId": "fence-math-east-link",
+      "origin": "original",
+      "position": [
+        191.1482534349346,
+        0.11999999731779099,
+        157.31499481201172
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-math-south-link",
+      "templateId": "fence-math-south-link",
+      "origin": "original",
+      "position": [
+        164.9800033569336,
+        0.11999999731779099,
+        206.66208310352047
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.4582119353730763,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-music-courtyard-return",
+      "templateId": "fence-music-courtyard-return",
+      "origin": "original",
+      "position": [
+        223.2633009422652,
+        0.11999999731779099,
+        40.8650016784668
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.2020686163588639,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-music-roadside-frontage",
+      "templateId": "fence-music-roadside-frontage",
+      "origin": "original",
+      "position": [
+        212.0199966430664,
+        0.11999999731779099,
+        22.204999446868896
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-new-building-east-link",
+      "templateId": "fence-new-building-east-link",
+      "origin": "original",
+      "position": [
+        134.69391376676148,
+        0.11999999731779099,
+        206.04082127623036
+      ],
+      "rotation": [
+        0,
+        0.2362021176088878,
+        0
+      ],
+      "scale": [
+        1.1437857982046686,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-new-building-west-link",
+      "templateId": "fence-new-building-west-link",
+      "origin": "original",
+      "position": [
+        48.5,
+        0.11999999731779099,
+        199
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-northeast-perimeter-link",
+      "templateId": "fence-northeast-perimeter-link",
+      "origin": "original",
+      "position": [
+        275.3400115966797,
+        0.11999999731779099,
+        -201.50999450683594
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-science-entry-east",
+      "templateId": "fence-science-entry-east",
+      "origin": "original",
+      "position": [
+        5.251150232667802,
+        0.6983331148652598,
+        76.9900016784668
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "fence-science-entry-west",
+      "templateId": "fence-science-entry-west",
+      "origin": "original",
+      "position": [
+        -16.010000228881836,
+        0.11999999731779099,
+        79.65443953503697
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        0.6130319238761047,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-science-parking-north-west",
+      "templateId": "fence-science-parking-north-west",
+      "origin": "original",
+      "position": [
+        -44.74499785900116,
+        0.11999999731779099,
+        78.07999992370605
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-stadium-east-north-gap",
+      "templateId": "fence-stadium-east-north-gap",
+      "origin": "original",
+      "position": [
+        -96.59759006276164,
+        0.11999999731779099,
+        49.64233896549934
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-stadium-east-south-gap",
+      "templateId": "fence-stadium-east-south-gap",
+      "origin": "original",
+      "position": [
+        -116.49927072129584,
+        0.11999999731779099,
+        101.46473354209333
+      ],
+      "rotation": [
+        0,
+        -0.012000288443450746,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        2.9092920405524616
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-stadium-south-boundary",
+      "templateId": "fence-stadium-south-boundary",
+      "origin": "original",
+      "position": [
+        -180.4099998474121,
+        0.11999999731779099,
+        170.25999450683594
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-stadium-southeast-link",
+      "templateId": "fence-stadium-southeast-link",
+      "origin": "original",
+      "position": [
+        -114.46500015258789,
+        0.11999999731779099,
+        157.31999969482422
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-stadium-west-lower",
+      "templateId": "fence-stadium-west-lower",
+      "origin": "original",
+      "position": [
+        -268.27110147022233,
+        0.11999999731779099,
+        125.02734155788492
+      ],
+      "rotation": [
+        0,
+        -0.11021583047623014,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-stadium-west-upper",
+      "templateId": "fence-stadium-west-upper",
+      "origin": "original",
+      "position": [
+        -257.7771426471436,
+        0.11999999731779099,
+        36.279562115805746
+      ],
+      "rotation": [
+        0,
+        -0.020517654161568182,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1.903507188918634
+      ],
+      "deleted": true
+    },
+    {
+      "id": "fence-tennis-enclosure",
+      "templateId": "fence-tennis-enclosure",
+      "origin": "original",
+      "position": [
+        240.46500396728516,
+        0.11999999731779099,
+        -140.76000213623047
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "fence-vista-north-perimeter",
+      "templateId": "fence-vista-north-perimeter",
+      "origin": "original",
+      "position": [
+        12.035003662109375,
+        0.11999999731779099,
+        -125.64000034332275
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "girls-lockers",
+      "templateId": "girls-lockers",
+      "origin": "original",
+      "position": [
+        130.41457504174534,
+        0.2199999988079071,
+        2.5067751139421555
+      ],
+      "rotation": [
+        0,
+        -0.0813836132428721,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.8603089063782704
+      ],
+      "deleted": false
+    },
+    {
+      "id": "gym",
+      "templateId": "gym",
+      "origin": "original",
+      "position": [
+        100.4148874518077,
+        0.2199999988079071,
+        -4.994868745489775
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "language-court-tree",
+      "templateId": "language-court-tree",
+      "origin": "original",
+      "position": [
+        188.03032361259977,
+        0.15261882543563843,
+        125.24598820887294
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "language-front-tree",
+      "templateId": "language-front-tree",
+      "origin": "original",
+      "position": [
+        203.4112837164089,
+        0.1486293375492096,
+        124.57950233648671
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "language-rear-tree",
+      "templateId": "language-rear-tree",
+      "origin": "original",
+      "position": [
+        143.23202600657652,
+        0.15339216589927673,
+        114.01717391597147
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "language-rear-tree-south",
+      "templateId": "language-rear-tree-south",
+      "origin": "original",
+      "position": [
+        140.79736568932697,
+        0.15321260690689087,
+        136.9693580616411
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "language-south-tree",
+      "templateId": "language-south-tree",
+      "origin": "original",
+      "position": [
+        183.28635371181406,
+        0.15053746104240417,
+        150.5665790186572
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "language-south-tree-east",
+      "templateId": "language-south-tree-east",
+      "origin": "original",
+      "position": [
+        201.36588186526046,
+        0.1526184380054474,
+        150.52407669138654
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "language-rear",
+      "templateId": "language-rear",
+      "origin": "original",
+      "position": [
+        148.5108974483058,
+        0.10499999672174454,
+        122.37380308187986
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1.0276370278637004,
+        1.064793138137954
+      ],
+      "deleted": false
+    },
+    {
+      "id": "lawn-entrance-1",
+      "templateId": "lawn-entrance-1",
+      "origin": "original",
+      "position": [
+        206,
+        0.17000000178813934,
+        90
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "lawn-entrance-2",
+      "templateId": "lawn-entrance-2",
+      "origin": "original",
+      "position": [
+        191.5,
+        0.17000000178813934,
+        85.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "lawn-entrance-3",
+      "templateId": "lawn-entrance-3",
+      "origin": "original",
+      "position": [
+        218.5,
+        0.17000000178813934,
+        71
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "lawn-entrance-4",
+      "templateId": "lawn-entrance-4",
+      "origin": "original",
+      "position": [
+        188,
+        0.17000000178813934,
+        68
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "lawn-language-central-lawn",
+      "templateId": "lawn-language-central-lawn",
+      "origin": "original",
+      "position": [
+        176.75,
+        0.18000000715255737,
+        124.75
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "lawn-language-rear-garden",
+      "templateId": "lawn-language-rear-garden",
+      "origin": "original",
+      "position": [
+        142.20000457763672,
+        0.18000000715255737,
+        123.9000015258789
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "lawn-language-south-lawn",
+      "templateId": "lawn-language-south-lawn",
+      "origin": "original",
+      "position": [
+        176.1500015258789,
+        0.18000000715255737,
+        149.1999969482422
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.9405685760335711,
+        3.3213371387710433,
+        1.7202095972458025
+      ],
+      "deleted": true
+    },
+    {
+      "id": "lawn-language-street-lawn",
+      "templateId": "lawn-language-street-lawn",
+      "origin": "original",
+      "position": [
+        201.33734462997987,
+        0.18000000715255737,
+        125.44999694824219
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.4327148464927482,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "lawn-math",
+      "templateId": "lawn-math",
+      "origin": "original",
+      "position": [
+        171,
+        -0.17798730510266214,
+        184.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "media",
+      "templateId": "media",
+      "origin": "original",
+      "position": [
+        91.64491966403217,
+        0.2199999988079071,
+        141.74323288994216
+      ],
+      "rotation": [
+        0,
+        -0.08381299346843776,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "south-classrooms",
+      "templateId": "south-classrooms",
+      "origin": "original",
+      "position": [
+        -64.46994321217659,
+        0.2199999988079071,
+        185.1799484081972
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "student-center",
+      "templateId": "student-center",
+      "origin": "original",
+      "position": [
+        97.01959474532862,
+        0.2199999988079071,
+        58.58410833682164
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "theater",
+      "templateId": "theater",
+      "origin": "original",
+      "position": [
+        186.09704371789948,
+        0.2199999988079071,
+        7.204960101407556
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "toilet-math",
+      "templateId": "toilet-math",
+      "origin": "original",
+      "position": [
+        199,
+        0.05000000074505806,
+        182
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "tree-entrance-1",
+      "templateId": "tree-entrance-1",
+      "origin": "original",
+      "position": [
+        190.03975652813227,
+        0,
+        61.1550916715255
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-entrance-2",
+      "templateId": "tree-entrance-2",
+      "origin": "original",
+      "position": [
+        189.73432989785317,
+        0,
+        83.8174255512863
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-entrance-3",
+      "templateId": "tree-entrance-3",
+      "origin": "original",
+      "position": [
+        207.02561181964927,
+        0,
+        89.01516150747679
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-entrance-4",
+      "templateId": "tree-entrance-4",
+      "origin": "original",
+      "position": [
+        216.04931645766595,
+        0,
+        69.77133033394011
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-math-1",
+      "templateId": "tree-math-1",
+      "origin": "original",
+      "position": [
+        166.05890962573903,
+        0,
+        180.0000057466137
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-math-2",
+      "templateId": "tree-math-2",
+      "origin": "original",
+      "position": [
+        168.0538556045116,
+        0,
+        193.0000155657357
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-1",
+      "templateId": "tree-simplified-1",
+      "origin": "original",
+      "position": [
+        -236.4814910888672,
+        0,
+        20.176034927368164
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-2",
+      "templateId": "tree-simplified-2",
+      "origin": "original",
+      "position": [
+        -232.59625244140625,
+        0,
+        95.97539520263672
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-3",
+      "templateId": "tree-simplified-3",
+      "origin": "original",
+      "position": [
+        -219.82664489746094,
+        0,
+        35.882476806640625
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-4",
+      "templateId": "tree-simplified-4",
+      "origin": "original",
+      "position": [
+        -216.08201599121094,
+        0,
+        -11.108277320861816
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-5",
+      "templateId": "tree-simplified-5",
+      "origin": "original",
+      "position": [
+        -207.1417999267578,
+        0,
+        93.35603332519531
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-6",
+      "templateId": "tree-simplified-6",
+      "origin": "original",
+      "position": [
+        -206.7413330078125,
+        0,
+        -3.681601047515869
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-7",
+      "templateId": "tree-simplified-7",
+      "origin": "original",
+      "position": [
+        -169.54705810546875,
+        0,
+        171.27650451660156
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-8",
+      "templateId": "tree-simplified-8",
+      "origin": "original",
+      "position": [
+        -148.2706756591797,
+        0,
+        -30.25251007080078
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-9",
+      "templateId": "tree-simplified-9",
+      "origin": "original",
+      "position": [
+        -147.08641052246094,
+        0,
+        170.8786163330078
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-10",
+      "templateId": "tree-simplified-10",
+      "origin": "original",
+      "position": [
+        -120.81331634521484,
+        0,
+        -30.54010009765625
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-11",
+      "templateId": "tree-simplified-11",
+      "origin": "original",
+      "position": [
+        -120.50927734375,
+        0,
+        106.78684997558594
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-12",
+      "templateId": "tree-simplified-12",
+      "origin": "original",
+      "position": [
+        -104.27273559570312,
+        0,
+        42.280067443847656
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-13",
+      "templateId": "tree-simplified-13",
+      "origin": "original",
+      "position": [
+        -98.71998596191406,
+        0,
+        147.6970977783203
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-14",
+      "templateId": "tree-simplified-14",
+      "origin": "original",
+      "position": [
+        -98.68292236328125,
+        0,
+        -56.919517517089844
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-15",
+      "templateId": "tree-simplified-15",
+      "origin": "original",
+      "position": [
+        -89.48133087158203,
+        0,
+        95.43753051757812
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-16",
+      "templateId": "tree-simplified-16",
+      "origin": "original",
+      "position": [
+        -88.87904357910156,
+        0,
+        -4.779629707336426
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-17",
+      "templateId": "tree-simplified-17",
+      "origin": "original",
+      "position": [
+        -85.27157592773438,
+        0,
+        26.821287155151367
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-18",
+      "templateId": "tree-simplified-18",
+      "origin": "original",
+      "position": [
+        -76.49044799804688,
+        0,
+        -76.81893157958984
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-19",
+      "templateId": "tree-simplified-19",
+      "origin": "original",
+      "position": [
+        -67.8877182006836,
+        0,
+        68.98212432861328
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-20",
+      "templateId": "tree-simplified-20",
+      "origin": "original",
+      "position": [
+        -48.91500473022461,
+        0,
+        43.20690155029297
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-21",
+      "templateId": "tree-simplified-21",
+      "origin": "original",
+      "position": [
+        -40.97106170654297,
+        0,
+        82.97258758544922
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-22",
+      "templateId": "tree-simplified-22",
+      "origin": "original",
+      "position": [
+        -35.127098083496094,
+        0,
+        182.4748992919922
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-23",
+      "templateId": "tree-simplified-23",
+      "origin": "original",
+      "position": [
+        -12.605547904968262,
+        0,
+        -13.185162544250488
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-24",
+      "templateId": "tree-simplified-24",
+      "origin": "original",
+      "position": [
+        -12.507689476013184,
+        0,
+        160.6877899169922
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-25",
+      "templateId": "tree-simplified-25",
+      "origin": "original",
+      "position": [
+        -11.221317291259766,
+        0,
+        -96.6720199584961
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-26",
+      "templateId": "tree-simplified-26",
+      "origin": "original",
+      "position": [
+        -7.977267265319824,
+        0,
+        -8.864546775817871
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-27",
+      "templateId": "tree-simplified-27",
+      "origin": "original",
+      "position": [
+        -4.808518409729004,
+        0,
+        67.37874603271484
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-28",
+      "templateId": "tree-simplified-28",
+      "origin": "original",
+      "position": [
+        -2.7446701526641846,
+        0,
+        165.89065551757812
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-29",
+      "templateId": "tree-simplified-29",
+      "origin": "original",
+      "position": [
+        -1.6958426237106323,
+        0,
+        59.40214920043945
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-30",
+      "templateId": "tree-simplified-30",
+      "origin": "original",
+      "position": [
+        1.6322590067898144,
+        0,
+        82.89969635009766
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "tree-simplified-31",
+      "templateId": "tree-simplified-31",
+      "origin": "original",
+      "position": [
+        -0.857086181640625,
+        0,
+        110.32621765136719
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-32",
+      "templateId": "tree-simplified-32",
+      "origin": "original",
+      "position": [
+        -0.055211007595062256,
+        0,
+        -75.93732452392578
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-33",
+      "templateId": "tree-simplified-33",
+      "origin": "original",
+      "position": [
+        0.7148452997207642,
+        0,
+        -51.11456298828125
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-34",
+      "templateId": "tree-simplified-34",
+      "origin": "original",
+      "position": [
+        0.7224945425987244,
+        0,
+        154.62193298339844
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-35",
+      "templateId": "tree-simplified-35",
+      "origin": "original",
+      "position": [
+        2.1980230808258057,
+        0,
+        6.091230869293213
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-36",
+      "templateId": "tree-simplified-36",
+      "origin": "original",
+      "position": [
+        4.342102527618408,
+        0,
+        41.06132507324219
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-37",
+      "templateId": "tree-simplified-37",
+      "origin": "original",
+      "position": [
+        10.395323753356934,
+        0,
+        111.5994873046875
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-38",
+      "templateId": "tree-simplified-38",
+      "origin": "original",
+      "position": [
+        11.480352401733398,
+        0,
+        89.58362579345703
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-39",
+      "templateId": "tree-simplified-39",
+      "origin": "original",
+      "position": [
+        12.417950630187988,
+        0,
+        66.11015319824219
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-40",
+      "templateId": "tree-simplified-40",
+      "origin": "original",
+      "position": [
+        12.888703346252441,
+        0,
+        -119.61893463134766
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-41",
+      "templateId": "tree-simplified-41",
+      "origin": "original",
+      "position": [
+        13.333032608032227,
+        0,
+        -117.22791290283203
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-42",
+      "templateId": "tree-simplified-42",
+      "origin": "original",
+      "position": [
+        14.640743255615234,
+        0,
+        -111.37968444824219
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-43",
+      "templateId": "tree-simplified-43",
+      "origin": "original",
+      "position": [
+        17.40546989440918,
+        0,
+        -97.91792297363281
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-44",
+      "templateId": "tree-simplified-44",
+      "origin": "original",
+      "position": [
+        18.678504943847656,
+        0,
+        25.710697174072266
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "tree-simplified-45",
+      "templateId": "tree-simplified-45",
+      "origin": "original",
+      "position": [
+        23.915081024169922,
+        0,
+        -107.2076416015625
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-46",
+      "templateId": "tree-simplified-46",
+      "origin": "original",
+      "position": [
+        26.61454963684082,
+        0,
+        22.752302169799805
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "tree-simplified-47",
+      "templateId": "tree-simplified-47",
+      "origin": "original",
+      "position": [
+        27.555875778198242,
+        0,
+        -17.50908851623535
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-48",
+      "templateId": "tree-simplified-48",
+      "origin": "original",
+      "position": [
+        38.871559143066406,
+        0,
+        162.04080200195312
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-49",
+      "templateId": "tree-simplified-49",
+      "origin": "original",
+      "position": [
+        43.385833740234375,
+        0,
+        -19.24867820739746
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-50",
+      "templateId": "tree-simplified-50",
+      "origin": "original",
+      "position": [
+        44.810516357421875,
+        0,
+        169.58766174316406
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-51",
+      "templateId": "tree-simplified-51",
+      "origin": "original",
+      "position": [
+        47.33993148803711,
+        0,
+        167.28782653808594
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-52",
+      "templateId": "tree-simplified-52",
+      "origin": "original",
+      "position": [
+        50.057735443115234,
+        0,
+        43.04664993286133
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "tree-simplified-53",
+      "templateId": "tree-simplified-53",
+      "origin": "original",
+      "position": [
+        52.1406364440918,
+        0,
+        -31.844547271728516
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-54",
+      "templateId": "tree-simplified-54",
+      "origin": "original",
+      "position": [
+        55.48711395263672,
+        0,
+        -59.94759750366211
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-55",
+      "templateId": "tree-simplified-55",
+      "origin": "original",
+      "position": [
+        63.97334671020508,
+        0,
+        161.25997924804688
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-56",
+      "templateId": "tree-simplified-56",
+      "origin": "original",
+      "position": [
+        68.41817474365234,
+        0,
+        -93.14928436279297
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-57",
+      "templateId": "tree-simplified-57",
+      "origin": "original",
+      "position": [
+        69.96427154541016,
+        0,
+        187.9479522705078
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-58",
+      "templateId": "tree-simplified-58",
+      "origin": "original",
+      "position": [
+        75.31804656982422,
+        0,
+        114.69369506835938
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-59",
+      "templateId": "tree-simplified-59",
+      "origin": "original",
+      "position": [
+        75.62901306152344,
+        0,
+        77.96289825439453
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-60",
+      "templateId": "tree-simplified-60",
+      "origin": "original",
+      "position": [
+        77.2841796875,
+        0,
+        190.74374389648438
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-61",
+      "templateId": "tree-simplified-61",
+      "origin": "original",
+      "position": [
+        77.45318603515625,
+        0,
+        104.47248077392578
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-62",
+      "templateId": "tree-simplified-62",
+      "origin": "original",
+      "position": [
+        77.67716979980469,
+        0,
+        111.84734344482422
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-63",
+      "templateId": "tree-simplified-63",
+      "origin": "original",
+      "position": [
+        78.78997039794922,
+        0,
+        85.76561737060547
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-64",
+      "templateId": "tree-simplified-64",
+      "origin": "original",
+      "position": [
+        79.33949279785156,
+        0,
+        -40.50312042236328
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "tree-simplified-65",
+      "templateId": "tree-simplified-65",
+      "origin": "original",
+      "position": [
+        84.68385314941406,
+        0,
+        124.2482681274414
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-66",
+      "templateId": "tree-simplified-66",
+      "origin": "original",
+      "position": [
+        88.04060363769531,
+        0,
+        103.20095825195312
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-67",
+      "templateId": "tree-simplified-67",
+      "origin": "original",
+      "position": [
+        89.84801483154297,
+        0,
+        89.97917175292969
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-68",
+      "templateId": "tree-simplified-68",
+      "origin": "original",
+      "position": [
+        90.36346435546875,
+        0,
+        95.74603271484375
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-69",
+      "templateId": "tree-simplified-69",
+      "origin": "original",
+      "position": [
+        90.82551574707031,
+        0,
+        99.5140609741211
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-70",
+      "templateId": "tree-simplified-70",
+      "origin": "original",
+      "position": [
+        99.88996887207031,
+        0,
+        81.49319458007812
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-71",
+      "templateId": "tree-simplified-71",
+      "origin": "original",
+      "position": [
+        101.53856658935547,
+        0,
+        151.43043518066406
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-72",
+      "templateId": "tree-simplified-72",
+      "origin": "original",
+      "position": [
+        103.19711303710938,
+        0,
+        99.6661605834961
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-73",
+      "templateId": "tree-simplified-73",
+      "origin": "original",
+      "position": [
+        104.21865844726562,
+        0,
+        148.18955993652344
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-74",
+      "templateId": "tree-simplified-74",
+      "origin": "original",
+      "position": [
+        113.22565460205078,
+        0,
+        150.0077667236328
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-75",
+      "templateId": "tree-simplified-75",
+      "origin": "original",
+      "position": [
+        116.48198699951172,
+        0,
+        143.60206604003906
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-76",
+      "templateId": "tree-simplified-76",
+      "origin": "original",
+      "position": [
+        118.33613586425781,
+        0,
+        122.99992370605469
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-77",
+      "templateId": "tree-simplified-77",
+      "origin": "original",
+      "position": [
+        119.22706604003906,
+        0,
+        180.24485778808594
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-78",
+      "templateId": "tree-simplified-78",
+      "origin": "original",
+      "position": [
+        125.66280364990234,
+        0,
+        -68.3149642944336
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-79",
+      "templateId": "tree-simplified-79",
+      "origin": "original",
+      "position": [
+        130.2934112548828,
+        0,
+        -91.76896667480469
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-80",
+      "templateId": "tree-simplified-80",
+      "origin": "original",
+      "position": [
+        130.4630126953125,
+        0,
+        172.96971130371094
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-81",
+      "templateId": "tree-simplified-81",
+      "origin": "original",
+      "position": [
+        141.4956512451172,
+        0,
+        179.87429809570312
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-82",
+      "templateId": "tree-simplified-82",
+      "origin": "original",
+      "position": [
+        143.20765686035156,
+        0,
+        189.03936767578125
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-83",
+      "templateId": "tree-simplified-83",
+      "origin": "original",
+      "position": [
+        143.40455627441406,
+        0,
+        -63.672569274902344
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-84",
+      "templateId": "tree-simplified-84",
+      "origin": "original",
+      "position": [
+        143.57806396484375,
+        0,
+        188.52645874023438
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-85",
+      "templateId": "tree-simplified-85",
+      "origin": "original",
+      "position": [
+        147.92227172851562,
+        0,
+        189.90965270996094
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-86",
+      "templateId": "tree-simplified-86",
+      "origin": "original",
+      "position": [
+        153.37081909179688,
+        0,
+        -1.533485770225525
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-87",
+      "templateId": "tree-simplified-87",
+      "origin": "original",
+      "position": [
+        163.82823181152344,
+        0,
+        -102.2536392211914
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-88",
+      "templateId": "tree-simplified-88",
+      "origin": "original",
+      "position": [
+        165.68492126464844,
+        0,
+        173.44036865234375
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-89",
+      "templateId": "tree-simplified-89",
+      "origin": "original",
+      "position": [
+        172.89910888671875,
+        0,
+        45.958961486816406
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-90",
+      "templateId": "tree-simplified-90",
+      "origin": "original",
+      "position": [
+        174.2842559814453,
+        0,
+        46.76725387573242
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-91",
+      "templateId": "tree-simplified-91",
+      "origin": "original",
+      "position": [
+        177.14723205566406,
+        0,
+        -101.51351165771484
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-92",
+      "templateId": "tree-simplified-92",
+      "origin": "original",
+      "position": [
+        185.7950439453125,
+        0,
+        42.09376907348633
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-93",
+      "templateId": "tree-simplified-93",
+      "origin": "original",
+      "position": [
+        187.60699462890625,
+        0,
+        -15.54212474822998
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-94",
+      "templateId": "tree-simplified-94",
+      "origin": "original",
+      "position": [
+        195.85719299316406,
+        0,
+        -133.49472045898438
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-95",
+      "templateId": "tree-simplified-95",
+      "origin": "original",
+      "position": [
+        200.949462890625,
+        0,
+        -128.2145233154297
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-96",
+      "templateId": "tree-simplified-96",
+      "origin": "original",
+      "position": [
+        201.46548461914062,
+        0,
+        -175.6334228515625
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-97",
+      "templateId": "tree-simplified-97",
+      "origin": "original",
+      "position": [
+        211.65924072265625,
+        0,
+        140.17332458496094
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-98",
+      "templateId": "tree-simplified-98",
+      "origin": "original",
+      "position": [
+        228.71490478515625,
+        0,
+        -52.65504455566406
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-99",
+      "templateId": "tree-simplified-99",
+      "origin": "original",
+      "position": [
+        228.90545654296875,
+        0,
+        -64.82294464111328
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "tree-simplified-100",
+      "templateId": "tree-simplified-100",
+      "origin": "original",
+      "position": [
+        236.57147216796875,
+        0,
+        -48.0447998046875
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-art-east",
+      "templateId": "walkway-art-east",
+      "origin": "original",
+      "position": [
+        27.189306685362833,
+        0.10000000149011612,
+        173.30497711537032
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-art-west",
+      "templateId": "walkway-art-west",
+      "origin": "original",
+      "position": [
+        11.931810714680246,
+        0.10000000149011612,
+        164
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-cafeteria-east",
+      "templateId": "walkway-cafeteria-east",
+      "origin": "original",
+      "position": [
+        70.51043306859542,
+        0.10000000149011612,
+        55.25278299271896
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "walkway-career-link",
+      "templateId": "walkway-career-link",
+      "origin": "original",
+      "position": [
+        119.55470676949922,
+        0.19624220838959516,
+        79.8248966274552
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-east-spine",
+      "templateId": "walkway-east-spine",
+      "origin": "original",
+      "position": [
+        153.4037788483933,
+        0.10000000149011612,
+        96.29272965977795
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1.1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-entrance-link",
+      "templateId": "walkway-entrance-link",
+      "origin": "original",
+      "position": [
+        141.38498153129274,
+        0.10000000149011612,
+        100.28500884320938
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.909752130151859,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-girls-short",
+      "templateId": "walkway-girls-short",
+      "origin": "original",
+      "position": [
+        124.9328366886214,
+        0.10000000149011612,
+        15.655846262814357
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-gym-front",
+      "templateId": "walkway-gym-front",
+      "origin": "original",
+      "position": [
+        96.73917686450085,
+        0.10000000149011612,
+        21.537878132988787
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8285002854040439,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-kings-row-eave",
+      "templateId": "walkway-kings-row-eave",
+      "origin": "original",
+      "position": [
+        -65.57498924609494,
+        0.10000000149011612,
+        178.0599778172554
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-language-north",
+      "templateId": "walkway-language-north",
+      "origin": "original",
+      "position": [
+        174.70746119280375,
+        0.10000000149011612,
+        114.19458156095975
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-language-south",
+      "templateId": "walkway-language-south",
+      "origin": "original",
+      "position": [
+        174.93341341830202,
+        0.10000000149011612,
+        133.73398492608595
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-library-door",
+      "templateId": "walkway-library-door",
+      "origin": "original",
+      "position": [
+        90.44458284114648,
+        -0.08196221526964909,
+        156.78160928435733
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.243384390738784,
+        1.5188416871768675,
+        3.311725182703882
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-library-east-row",
+      "templateId": "walkway-library-east-row",
+      "origin": "original",
+      "position": [
+        125.05518253454825,
+        0.02370895726721889,
+        129.18845012082474
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.9377795880279963
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-library-west-row",
+      "templateId": "walkway-library-west-row",
+      "origin": "original",
+      "position": [
+        70.06866491396946,
+        0.10000000149011612,
+        124.6734690176722
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.6629798782429368,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-math-east",
+      "templateId": "walkway-math-east",
+      "origin": "original",
+      "position": [
+        174.8509533773832,
+        0.10000000149011612,
+        185.17501357510747
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-math-west",
+      "templateId": "walkway-math-west",
+      "origin": "original",
+      "position": [
+        158.07297160321758,
+        0.10000000149011612,
+        185.0549877165267
+      ],
+      "rotation": [
+        0,
+        -0.020242419932951332,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-music-south",
+      "templateId": "walkway-music-south",
+      "origin": "original",
+      "position": [
+        177.17097160570472,
+        0.10000000149011612,
+        33.64862987623404
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-music-west",
+      "templateId": "walkway-music-west",
+      "origin": "original",
+      "position": [
+        160.1758320486541,
+        0.10000000149011612,
+        4.521054707559223
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1.1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-office-west",
+      "templateId": "walkway-office-west",
+      "origin": "original",
+      "position": [
+        163.5750102407068,
+        0.10000000149011612,
+        70.87000435518563
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "walkway-science-north",
+      "templateId": "walkway-science-north",
+      "origin": "original",
+      "position": [
+        10,
+        0.10000000149011612,
+        102.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.7000000000000001,
+        1,
+        2.6
+      ],
+      "deleted": true
+    },
+    {
+      "id": "walkway-science-south",
+      "templateId": "walkway-science-south",
+      "origin": "original",
+      "position": [
+        14.059086493362903,
+        0.10000000149011612,
+        120.31513714768613
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.7000000000000001,
+        1,
+        1.1457685696776316
+      ],
+      "deleted": true
+    },
+    {
+      "id": "walkway-science-west",
+      "templateId": "walkway-science-west",
+      "origin": "original",
+      "position": [
+        -11.257228513156058,
+        0.10000000149011612,
+        103.61749739149735
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1.0222198629050039
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-southeast-link",
+      "templateId": "walkway-southeast-link",
+      "origin": "original",
+      "position": [
+        153.32106437268072,
+        0.10000000149011612,
+        160.08997876062176
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-southwest-eave",
+      "templateId": "walkway-southwest-eave",
+      "origin": "original",
+      "position": [
+        -47.211382833586335,
+        0.10000000149011612,
+        164.84660487702368
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1.6864696422856178
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-southwest-link",
+      "templateId": "walkway-southwest-link",
+      "origin": "original",
+      "position": [
+        2.355033768343695,
+        0.10000000149011612,
+        147.13559799145213
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-student-services",
+      "templateId": "walkway-student-services",
+      "origin": "original",
+      "position": [
+        82.74015683046454,
+        0.10000000149011612,
+        69.58157758216952
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "walkway-west-classroom-link",
+      "templateId": "walkway-west-classroom-link",
+      "origin": "original",
+      "position": [
+        -59.734440093151875,
+        0.10000000149011612,
+        142.65760305778798
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-west-eave",
+      "templateId": "walkway-west-eave",
+      "origin": "original",
+      "position": [
+        -61.01499880297793,
+        0.10000000149011612,
+        141.9900152374846
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-west-short-link",
+      "templateId": "walkway-west-short-link",
+      "origin": "original",
+      "position": [
+        -51.72000385194828,
+        0.10000000149011612,
+        149.2349974001001
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-west-spine",
+      "templateId": "walkway-west-spine",
+      "origin": "original",
+      "position": [
+        43.53101374566919,
+        0.10000000149011612,
+        108.42934168217256
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "walkway-west-spur",
+      "templateId": "walkway-west-spur",
+      "origin": "original",
+      "position": [
+        59.03999942886683,
+        0.10000000149011612,
+        96.4220758558948
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470980639",
+      "templateId": "way-470980639",
+      "origin": "original",
+      "position": [
+        -92.51500028957375,
+        0.2199999988079071,
+        11.634993734968475
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470980963",
+      "templateId": "way-470980963",
+      "origin": "original",
+      "position": [
+        -105.67686047148499,
+        0,
+        87.77716920877842
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470980972",
+      "templateId": "way-470980972",
+      "origin": "original",
+      "position": [
+        93.66000444187348,
+        0.2199999988079071,
+        187.56999648216828
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470980985",
+      "templateId": "way-470980985",
+      "origin": "original",
+      "position": [
+        212.6050054799659,
+        0.2199999988079071,
+        1.5950200240296741
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470980992",
+      "templateId": "way-470980992",
+      "origin": "original",
+      "position": [
+        -94.03500147077827,
+        0.2199999988079071,
+        -23.159999415912026
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470981010",
+      "templateId": "way-470981010",
+      "origin": "original",
+      "position": [
+        -217.68040009595472,
+        -2.384185791015625e-07,
+        75.56367283289546
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470981019",
+      "templateId": "way-470981019",
+      "origin": "original",
+      "position": [
+        -40.96499942713759,
+        0.2199999988079071,
+        -69.41498957971268
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470981021",
+      "templateId": "way-470981021",
+      "origin": "original",
+      "position": [
+        82,
+        0.2199999988079071,
+        -51.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        1,
+        0.6927486833051785
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470981037",
+      "templateId": "way-470981037",
+      "origin": "original",
+      "position": [
+        203.74501092745462,
+        0.2199999988079071,
+        0.5050035521147764
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470981048",
+      "templateId": "way-470981048",
+      "origin": "original",
+      "position": [
+        32.449811118368935,
+        0.2199999988079071,
+        174.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1.1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470981081",
+      "templateId": "way-470981081",
+      "origin": "original",
+      "position": [
+        -225.24498481361647,
+        0.2199999988079071,
+        128.09992520487432
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470981091",
+      "templateId": "way-470981091",
+      "origin": "original",
+      "position": [
+        -160.00531475707442,
+        0.2199999988079071,
+        -51.09011571989512
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470981092",
+      "templateId": "way-470981092",
+      "origin": "original",
+      "position": [
+        -110.10000762766799,
+        0.2199999988079071,
+        148.4350025706354
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470981095",
+      "templateId": "way-470981095",
+      "origin": "original",
+      "position": [
+        20,
+        0.2028980666728979,
+        33.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470981119",
+      "templateId": "way-470981119",
+      "origin": "original",
+      "position": [
+        -114.56000584578878,
+        0.2199999988079071,
+        166.55000287991953
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470981176",
+      "templateId": "way-470981176",
+      "origin": "original",
+      "position": [
+        -209.17957409407705,
+        0.2199999988079071,
+        7.840193528819276
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "way-470981322",
+      "templateId": "way-470981322",
+      "origin": "original",
+      "position": [
+        5.98491935253441,
+        0.2199999988079071,
+        164
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "weight",
+      "templateId": "weight",
+      "origin": "original",
+      "position": [
+        -72.64514771376274,
+        0.2199999988079071,
+        140.42990308405766
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-7683acee-a893-431c-bbf6-4e581b74fc40",
+      "templateId": "fence-main-entrance-closed",
+      "origin": "added",
+      "position": [
+        177,
+        0.11999999731779099,
+        92.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-00cf8331-0154-4ae9-adfc-79e1437d23db",
+      "templateId": "bench-entrance-2",
+      "origin": "added",
+      "position": [
+        208.5,
+        0.14999999105930328,
+        84.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-d329b000-2a4a-4312-8cea-1000dc1a4e78",
+      "templateId": "bench-entrance-7",
+      "origin": "added",
+      "position": [
+        212,
+        0.14999999105930328,
+        70
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-44f79c4a-7e35-47f2-98e6-b6071b6f203e",
+      "templateId": "bench-entrance-2",
+      "origin": "added",
+      "position": [
+        201,
+        0.14999999105930328,
+        65
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-02a1c2bf-8263-4230-a9e1-ace9087c18c1",
+      "templateId": "toilet-math",
+      "origin": "added",
+      "position": [
+        166.5,
+        0,
+        155
+      ],
+      "rotation": [
+        3.141592653589793,
+        -1.3089969389957485,
+        3.141592653589793
+      ],
+      "scale": [
+        0.6000000000000001,
+        1,
+        2.8822568635026053
+      ],
+      "deleted": true
+    },
+    {
+      "id": "placed-aa83efce-2b7b-4fc8-bb7c-ae91e8a5e947",
+      "templateId": "toilet-math",
+      "origin": "added",
+      "position": [
+        171.6950243568853,
+        0.05000000074505806,
+        155.1952126983741
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1.1109889432076605,
+        1.3158624739668523,
+        1.355241929886782
+      ],
+      "deleted": true
+    },
+    {
+      "id": "placed-cd84bba4-97e4-4d8a-a94b-1cc026400f29",
+      "templateId": "toilet-math",
+      "origin": "added",
+      "position": [
+        168.30545914689057,
+        0.05000000074505806,
+        157.92432698397658
+      ],
+      "rotation": [
+        0,
+        1.4595600471132937,
+        0
+      ],
+      "scale": [
+        1,
+        1.379849267689353,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-4b05768a-6721-4df6-8b3a-8d0ac112a2da",
+      "templateId": "toilet-math",
+      "origin": "added",
+      "position": [
+        122.63036112901663,
+        0.20238744086024862,
+        71.27060860768732
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1.3047388060832268,
+        0.4700771190207161
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-9ecaaf24-a3d0-4742-9a48-f660db27bd6e",
+      "templateId": "walkway-west-spur",
+      "origin": "added",
+      "position": [
+        59.51374461908182,
+        0.10000000149011612,
+        60.46897398602514
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-93247f34-abe5-4d43-9b90-6aa642368d08",
+      "templateId": "walkway-west-spur",
+      "origin": "added",
+      "position": [
+        87.19568692954194,
+        0.10000000149011612,
+        63.2424778413858
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-7bb86e28-0a5c-4df3-b7de-0624e59df4bd",
+      "templateId": "walkway-west-spur",
+      "origin": "added",
+      "position": [
+        105.19943300474583,
+        0.10000000149011612,
+        64.9602297125539
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-ab12e74f-9c72-4eaf-b464-822d916ac626",
+      "templateId": "walkway-west-spur",
+      "origin": "added",
+      "position": [
+        96.68120723942359,
+        0.10000000149011612,
+        117.5466714190457
+      ],
+      "rotation": [
+        0,
+        -0.0720942747249302,
+        0
+      ],
+      "scale": [
+        1.3384412445591536,
+        1.2103080212237445,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-286af8f8-d8b4-4e32-8b96-76fe4dd3c5c1",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        26,
+        0,
+        61.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        0.6524579302413128,
+        0.6000000000000001
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-61939506-b9ac-497b-84bd-245f612e5a03",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        24,
+        0.11999999731779099,
+        79
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        0.6257345138823109,
+        0.3340523299596334
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-f83a1744-52f8-424b-ab34-5692dcff9e07",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        20.5,
+        0.11999999731779099,
+        82
+      ],
+      "rotation": [
+        -3.141592653589793,
+        1.449563764180225,
+        -3.141592653589793
+      ],
+      "scale": [
+        1,
+        0.6257345138823109,
+        0.3340523299596334
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-d9039114-554d-4c77-92df-816488b540d9",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        13.5,
+        0,
+        81.5
+      ],
+      "rotation": [
+        -3.1415926535897922,
+        1.554954437859112,
+        3.1415926535897927
+      ],
+      "scale": [
+        1,
+        0.6257345138823109,
+        0.4
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-58c82126-1686-4e3f-9eff-c6cdbe802985",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        7.5,
+        0,
+        81
+      ],
+      "rotation": [
+        -3.1415926535897922,
+        1.554954437859112,
+        3.1415926535897927
+      ],
+      "scale": [
+        1,
+        0.6257345138823109,
+        0.3340523299596334
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-d185b8cf-d876-4d68-8d27-79fbf0883c0c",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        210.3127205859817,
+        0.11999999731779099,
+        47.7441754530562
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.31290327984073774,
+        1,
+        0.37120050203759436
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-6bfba615-07f2-42ac-9c11-1336ba72e43d",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        217.20493068261888,
+        0.11999999731779099,
+        13.297490323201536
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-330c0318-fcb5-40ca-b9ea-cb8222702641",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        214.78214339504078,
+        0.11999999731779099,
+        24.202987592078998
+      ],
+      "rotation": [
+        0,
+        -0.8209996666716478,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.23624581402415268
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-3aed3562-967d-4d13-9a79-a35083d5116c",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        218.09302547533653,
+        0.24271311962628106,
+        -3.467668612478289
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.7318296379307857
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-a2ff3da4-4a00-45f9-9ee6-a255506585ac",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        213.0064112604545,
+        0.11999999731779099,
+        -11.044710333789562
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.5663209779243011
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-270d3136-f891-47f8-8b03-772a47255da0",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        214.2396073590461,
+        0.11999999731779099,
+        -16.269160791603422
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.4608077565781045
+      ],
+      "deleted": true
+    },
+    {
+      "id": "placed-6420c8d6-a65d-4201-bc48-72ea5438f252",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        209.78964698995858,
+        0.11999999731779099,
+        -22.10581971628981
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.5882870015708858
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-d9f1f118-96ed-4b1f-bcd9-b60e2dabc05e",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        153.56853496306618,
+        0.11999999731779099,
+        -24.62001690916498
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "placed-338579b9-5967-4a8e-9dc5-a8d1d6d61bee",
+      "templateId": "fence-gym-music-link",
+      "origin": "added",
+      "position": [
+        156.96344688552193,
+        0.11986019916726304,
+        -21.545246535951932
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5948588017385928,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-77da923f-c3a1-488c-823e-e279c4dcd9e1",
+      "templateId": "walkway-art-east",
+      "origin": "added",
+      "position": [
+        46.52698094637125,
+        0.10000000149011612,
+        69.86842721974354
+      ],
+      "rotation": [
+        0,
+        0.05271517964220981,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.3489974815114215
+      ],
+      "deleted": true
+    },
+    {
+      "id": "placed-03dea0db-0ed8-47eb-92cf-f768834e8f9f",
+      "templateId": "walkway-west-spine",
+      "origin": "added",
+      "position": [
+        48.82385946167238,
+        0.10000000149011612,
+        67.01704899012879
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.21982308739407322
+      ],
+      "deleted": true
+    },
+    {
+      "id": "placed-11c3323c-fb21-449c-9600-89f2147f391d",
+      "templateId": "walkway-west-spur",
+      "origin": "added",
+      "position": [
+        46.80163396604484,
+        0.10000000149011612,
+        69.69155588022058
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-911168a8-d38d-4784-a223-4923f6305132",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        -2.712662162051048,
+        0.11999999731779099,
+        40.4320938939629
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "placed-f7600c37-779a-4d52-8810-05f425dfd03f",
+      "templateId": "fence-baseball-gym-link",
+      "origin": "added",
+      "position": [
+        -6.464442993749027,
+        0.11999999731779099,
+        40.47633478459839
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "placed-adaa460b-5065-485c-88b6-f4c80e679a83",
+      "templateId": "fence-baseball-north-west",
+      "origin": "added",
+      "position": [
+        2.791107962803192,
+        0.11999999731779099,
+        42.54447388779347
+      ],
+      "rotation": [
+        0,
+        0.6448654222557889,
+        0
+      ],
+      "scale": [
+        0.37462445101734465,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-f05195b7-0f0f-4860-9737-5e131e06b217",
+      "templateId": "fence-cedar-parking-east",
+      "origin": "added",
+      "position": [
+        19.157658675501757,
+        0.11999999731779099,
+        14.250470361519909
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.05469537210523156
+      ],
+      "deleted": true
+    },
+    {
+      "id": "placed-4ab36d17-4715-46c6-a467-1963ba2e5f84",
+      "templateId": "fence-stadium-east-north-gap",
+      "origin": "added",
+      "position": [
+        22,
+        0,
+        21.5
+      ],
+      "rotation": [
+        3.141592653589793,
+        -2.7755575615628914e-16,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "placed-f9e7d253-70d4-41c8-b21c-a07df5e8a56d",
+      "templateId": "fence-stadium-east-north-gap",
+      "origin": "added",
+      "position": [
+        27.152516286096894,
+        0.11999999731779099,
+        -1.6708180603837803
+      ],
+      "rotation": [
+        0,
+        0.10440674872942661,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-fbe6ba5c-a6fe-4a56-9f03-80f92e030444",
+      "templateId": "fence-stadium-east-south-gap",
+      "origin": "added",
+      "position": [
+        -106.7176095896059,
+        0.11999999731779099,
+        131.17262744042952
+      ],
+      "rotation": [
+        0,
+        0.15636362182896918,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-798e1fd6-61a2-4bf3-99f6-ce01ab27ba51",
+      "templateId": "fence-stadium-east-south-gap",
+      "origin": "added",
+      "position": [
+        -112.90374310036604,
+        0.11999999731779099,
+        71.42786497418592
+      ],
+      "rotation": [
+        0,
+        -0.012000288443450746,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        2.9092920405524616
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-3c817b13-4736-432d-b8ba-a48cabaea632",
+      "templateId": "fence-stadium-east-south-gap",
+      "origin": "added",
+      "position": [
+        -207.12979293670995,
+        0.11999999731779099,
+        72.23690490466107
+      ],
+      "rotation": [
+        0,
+        -0.012000288443450746,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        2.9092920405524616
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-3842de05-e70c-42fe-b8ae-c94f7cf21a4d",
+      "templateId": "fence-stadium-east-south-gap",
+      "origin": "added",
+      "position": [
+        -208.0628603707932,
+        0.11999999731779099,
+        79.88526403620388
+      ],
+      "rotation": [
+        0,
+        -0.012000288443450746,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        2.9092920405524616
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-2809d322-5c82-43dc-91f8-5ef8cc9ae26c",
+      "templateId": "fence-stadium-east-south-gap",
+      "origin": "added",
+      "position": [
+        -234.2114603443958,
+        0.11999999731779099,
+        140.2638848409319
+      ],
+      "rotation": [
+        0,
+        -0.012000288443450746,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        2.9092920405524616
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-9729c685-0186-47f9-9dbd-5e88cfd05ef4",
+      "templateId": "fence-stadium-west-lower",
+      "origin": "added",
+      "position": [
+        -260.65736075003724,
+        0.11999999731779099,
+        60.1495641127141
+      ],
+      "rotation": [
+        0,
+        -0.11021583047623014,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-d549abd2-d97d-43c7-bfad-4ed90ef0cd3e",
+      "templateId": "fence-stadium-west-lower",
+      "origin": "added",
+      "position": [
+        -254.4313394166445,
+        0.11999999731779099,
+        8.903886895455273
+      ],
+      "rotation": [
+        0,
+        -0.11021583047623014,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-c723dfc1-5493-4858-959e-a8a88e0af424",
+      "templateId": "fence-northeast-perimeter-link",
+      "origin": "added",
+      "position": [
+        -23.870378331952402,
+        0.11999999731779099,
+        -72.57887600591731
+      ],
+      "rotation": [
+        0,
+        -1.4092901623498801,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.5211458152932956
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-2cab603e-1774-4158-8e7d-4f609f9595a9",
+      "templateId": "walkway-career-link",
+      "origin": "added",
+      "position": [
+        147.5,
+        0.19624220838959516,
+        30
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        0.8
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-962e820c-476a-42e7-89e4-2cbaf728edae",
+      "templateId": "fence-stadium-east-north-gap",
+      "origin": "added",
+      "position": [
+        39.5,
+        0.11999999731779099,
+        11
+      ],
+      "rotation": [
+        0,
+        -1.4663895780654699,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-abbd8990-6243-437e-a0ca-3156b6649759",
+      "templateId": "fence-stadium-east-north-gap",
+      "origin": "added",
+      "position": [
+        24.5,
+        0.11999999731779099,
+        21.5
+      ],
+      "rotation": [
+        0,
+        -3.037185904860366,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-04f059bd-f5d0-42d8-b29a-851e050250e8",
+      "templateId": "fence-stadium-east-north-gap",
+      "origin": "added",
+      "position": [
+        29,
+        0.11999999731779099,
+        67.5
+      ],
+      "rotation": [
+        0,
+        -3.037185904860366,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "placed-14e6d451-c657-4567-b5bb-14a9a867fcc9",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        2.5,
+        0,
+        80.5
+      ],
+      "rotation": [
+        -3.1415926535897922,
+        1.554954437859112,
+        3.1415926535897927
+      ],
+      "scale": [
+        1,
+        0.6257345138823109,
+        0.3340523299596334
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-f80da8e6-f179-46ec-9501-df3ebfb0b7a9",
+      "templateId": "walkway-west-spur",
+      "origin": "added",
+      "position": [
+        20.5,
+        0.10000000149011612,
+        103
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.6,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-dc21d17f-f0a8-4bd7-8d1c-0e2df1d1ecdd",
+      "templateId": "walkway-west-spur",
+      "origin": "added",
+      "position": [
+        18,
+        0.10000000149011612,
+        121
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.6,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-984624ee-96f6-43bd-a92d-71889443929c",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        -34.5,
+        0.11999999731779099,
+        192.5
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1.6534203914528758,
+        1.6534203914528758,
+        1.6534203914528758
+      ],
+      "deleted": true
+    },
+    {
+      "id": "placed-a9a051d1-6333-441c-b24d-85e81a3293d5",
+      "templateId": "fence-art-south-boundary",
+      "origin": "added",
+      "position": [
+        -35.95818721540767,
+        0.11999999731779099,
+        191.8856456335546
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4726638288477928,
+        1,
+        1
+      ],
+      "deleted": false
+    },
+    {
+      "id": "placed-9739441a-f2b2-4978-b850-2a3036cee1d0",
+      "templateId": "fence-art-south-boundary",
+      "origin": "added",
+      "position": [
+        7.983970033416895,
+        0.11999999731779099,
+        194.8856456335546
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.23941464373187096,
+        1,
+        1
+      ],
+      "deleted": true
+    },
+    {
+      "id": "placed-e2ceb61e-3a8b-4e19-ad47-fc876783a8d2",
+      "templateId": "fence-art-courtyard-divider",
+      "origin": "added",
+      "position": [
+        -5.9235202359551895,
+        0.11999999731779099,
+        196.31229246584533
+      ],
+      "rotation": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "deleted": false
+    }
+  ]
+}

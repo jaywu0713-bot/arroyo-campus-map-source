@@ -1,0 +1,749 @@
+{
+  "source": "User aerial annotations: 截屏2026-09-06 下午8.15.20.png; exterior records 001–014",
+  "coordinateSpace": "1900 x 1312 displayed aerial pixels; approximate wall and route traces, not surveyed",
+  "registration": {
+    "x": [0.1669240813, 0.0026195954, -100.4958732],
+    "z": [-0.0064743051, 0.1767039056, -8.8832063],
+    "anchors": [
+      "way-470981322 Art west roof corners",
+      "way-470981048 Art east roof corners"
+    ],
+    "note": "Least squares against eight OSM art-wing corners. Roof overhangs, image perspective and OSM age limit accuracy."
+  },
+  "buildings": [
+    {
+      "id": "gym",
+      "name": "Gymnasium",
+      "height": 9,
+      "roof": "flat",
+      "category": "Athletics",
+      "landmark": true,
+      "points": [
+        [1097, -75],
+        [1340, -44],
+        [1304, 207],
+        [1065, 183]
+      ],
+      "arrival": [1200, 260]
+    },
+    {
+      "id": "boys-lockers",
+      "name": "Boys’ Locker Rooms",
+      "height": 4.5,
+      "roof": "flat",
+      "category": "Athletics",
+      "points": [
+        [868, -55],
+        [1016, -36],
+        [997, 169],
+        [798, 149],
+        [807, 99],
+        [860, 104]
+      ]
+    },
+    {
+      "id": "girls-lockers",
+      "name": "Girls’ Locker Rooms",
+      "height": 4.5,
+      "roof": "flat",
+      "category": "Athletics",
+      "points": [
+        [1372, -47],
+        [1490, -27],
+        [1455, 262],
+        [1394, 249],
+        [1406, 159],
+        [1360, 150]
+      ]
+    },
+    {
+      "id": "theater",
+      "name": "Music Classrooms",
+      "height": 4.8,
+      "roof": "pitched",
+      "category": "Arts",
+      "landmark": true,
+      "points": [
+        [1604, -59],
+        [1693, -47],
+        [1678, 237],
+        [1901, 263],
+        [1887, 369],
+        [1774, 353],
+        [1782, 293],
+        [1580, 269]
+      ],
+      "arrival": [1561, 277]
+    },
+    {
+      "id": "cafeteria",
+      "name": "Cafeteria",
+      "height": 5,
+      "roof": "flat",
+      "category": "Student life",
+      "landmark": true,
+      "points": [
+        [698, 299],
+        [855, 304],
+        [852, 331],
+        [943, 342],
+        [951, 306],
+        [1020, 316],
+        [1010, 451],
+        [872, 446],
+        [851, 490],
+        [685, 472]
+      ],
+      "arrival": [894, 493]
+    },
+    {
+      "id": "student-center",
+      "name": "Student Center",
+      "height": 3.8,
+      "roof": "flat",
+      "category": "Student life",
+      "landmark": true,
+      "points": [
+        [1090, 425],
+        [1242, 445],
+        [1238, 482],
+        [1085, 469]
+      ],
+      "arrival": [1165, 503]
+    },
+    {
+      "id": "career-center",
+      "name": "Career Center",
+      "height": 4.2,
+      "roof": "flat",
+      "category": "Student life",
+      "landmark": true,
+      "points": [
+        [1328, 467],
+        [1442, 485],
+        [1429, 583],
+        [1319, 572]
+      ],
+      "arrival": [1286, 558]
+    },
+    {
+      "id": "admin",
+      "name": "Office",
+      "height": 4.5,
+      "roof": "pitched",
+      "category": "Welcome",
+      "landmark": true,
+      "points": [
+        [1607, 385],
+        [1671, 393],
+        [1664, 421],
+        [1625, 419],
+        [1609, 580],
+        [1666, 590],
+        [1659, 646],
+        [1574, 632],
+        [1580, 602],
+        [1591, 603]
+      ],
+      "arrival": [1553, 660]
+    },
+    {
+      "id": "business",
+      "name": "Language Center",
+      "height": 4.5,
+      "roof": "pitched",
+      "category": "Learning",
+      "landmark": true,
+      "points": [
+        [1549, 692],
+        [1796, 722],
+        [1788, 772],
+        [1540, 744]
+      ],
+      "arrival": [1560, 781]
+    },
+    {
+      "id": "class5",
+      "name": "Language Classrooms",
+      "height": 4.5,
+      "roof": "pitched",
+      "category": "Learning",
+      "points": [
+        [1524, 860],
+        [1781, 884],
+        [1773, 928],
+        [1519, 900]
+      ]
+    },
+    {
+      "id": "class10",
+      "name": "Math Classrooms · East",
+      "height": 4.5,
+      "roof": "pitched",
+      "category": "Learning",
+      "points": [
+        [1659, 1050],
+        [1727, 1059],
+        [1694, 1281],
+        [1618, 1273]
+      ]
+    },
+    {
+      "id": "class15",
+      "name": "Math Classrooms",
+      "height": 4.5,
+      "roof": "pitched",
+      "category": "Learning",
+      "landmark": true,
+      "points": [
+        [1498, 1041],
+        [1536, 1045],
+        [1510, 1279],
+        [1471, 1275]
+      ],
+      "arrival": [1540, 1155]
+    },
+    {
+      "id": "class30",
+      "name": "East Classroom Row",
+      "height": 4.5,
+      "roof": "pitched",
+      "category": "Learning",
+      "points": [
+        [1372, 688],
+        [1453, 699],
+        [1420, 974],
+        [1329, 962]
+      ]
+    },
+    {
+      "id": "class36",
+      "name": "Classrooms",
+      "height": 4.5,
+      "roof": "pitched",
+      "category": "Learning",
+      "keepExisting": true
+    },
+    {
+      "id": "class40",
+      "name": "West Classroom Row",
+      "height": 4.5,
+      "roof": "pitched",
+      "category": "Learning",
+      "points": [
+        [922, 648],
+        [1008, 659],
+        [977, 929],
+        [897, 918]
+      ]
+    },
+    {
+      "id": "media",
+      "name": "Library",
+      "height": 5,
+      "roof": "pitched",
+      "category": "Learning",
+      "landmark": true,
+      "points": [
+        [1084, 796],
+        [1173, 809],
+        [1173, 837],
+        [1204, 842],
+        [1192, 950],
+        [1113, 949],
+        [1106, 958],
+        [1070, 951]
+      ],
+      "arrival": [1135, 981]
+    },
+    {
+      "id": "class70",
+      "name": "Science Classrooms · North",
+      "height": 4.5,
+      "roof": "flat",
+      "category": "Learning",
+      "points": [
+        [564, 578],
+        [830, 614],
+        [824, 650],
+        [568, 626]
+      ]
+    },
+    {
+      "id": "class73",
+      "name": "Science Classrooms · South",
+      "height": 4.5,
+      "roof": "flat",
+      "category": "Learning",
+      "points": [
+        [562, 750],
+        [811, 782],
+        [806, 826],
+        [553, 795]
+      ]
+    },
+    {
+      "id": "class77",
+      "name": "Science Classrooms",
+      "height": 4.5,
+      "roof": "flat",
+      "category": "Learning",
+      "landmark": true,
+      "points": [
+        [454, 530],
+        [514, 541],
+        [489, 771],
+        [431, 767]
+      ],
+      "arrival": [516, 676]
+    },
+    {
+      "id": "weight",
+      "name": "West Classrooms",
+      "height": 4.5,
+      "roof": "flat",
+      "category": "Learning",
+      "points": [
+        [101, 768],
+        [217, 783],
+        [200, 933],
+        [90, 917]
+      ]
+    },
+    {
+      "id": "class60",
+      "name": "Southwest Classrooms",
+      "height": 4.5,
+      "roof": "flat",
+      "category": "Learning",
+      "points": [
+        [298, 885],
+        [393, 902],
+        [377, 1042],
+        [333, 1036],
+        [343, 931],
+        [293, 922]
+      ]
+    },
+    {
+      "id": "south-classrooms",
+      "name": "Kings Row Classrooms",
+      "height": 4.5,
+      "roof": "flat",
+      "category": "Learning",
+      "points": [
+        [52, 1062],
+        [352, 1099],
+        [345, 1149],
+        [45, 1109]
+      ]
+    },
+    {
+      "id": "way-470981322",
+      "name": "Art Classrooms · West",
+      "height": 4.5,
+      "roof": "pitched",
+      "category": "Arts",
+      "points": [
+        [599, 928],
+        [659, 938],
+        [642, 1095],
+        [585, 1089]
+      ]
+    },
+    {
+      "id": "way-470981048",
+      "name": "Art Classrooms",
+      "height": 4.5,
+      "roof": "pitched",
+      "category": "Arts",
+      "landmark": true,
+      "points": [
+        [766, 952],
+        [820, 961],
+        [785, 1202],
+        [739, 1199]
+      ],
+      "arrival": [737, 1090]
+    },
+    {
+      "id": "way-470980972",
+      "name": "New Building",
+      "height": 10.3,
+      "roof": "flat",
+      "category": "Learning",
+      "landmark": true,
+      "keepExisting": true,
+      "arrival": [1062, 1011]
+    },
+    {
+      "id": "way-470980639",
+      "name": "Stadium Locker Rooms",
+      "category": "Athletics",
+      "keepExisting": true
+    },
+    {
+      "id": "way-470980963",
+      "name": "Stadium East Stand",
+      "category": "Athletics",
+      "keepExisting": true,
+      "structure": "stand"
+    },
+    {
+      "id": "way-470981010",
+      "name": "Stadium West Stand",
+      "category": "Athletics",
+      "keepExisting": true,
+      "structure": "stand"
+    },
+    {
+      "id": "way-470981119",
+      "name": "Stadium Entrance",
+      "category": "Athletics",
+      "keepExisting": true
+    }
+  ],
+  "walkways": [
+    {
+      "id": "gym-front",
+      "kind": "covered",
+      "points": [
+        [805, 173],
+        [1070, 202],
+        [1223, 222],
+        [1371, 239],
+        [1369, 261],
+        [1410, 278],
+        [1551, 292]
+      ]
+    },
+    {
+      "id": "east-spine",
+      "kind": "covered",
+      "points": [
+        [1551, 292],
+        [1518, 676],
+        [1498, 835],
+        [1477, 1009]
+      ]
+    },
+    {
+      "id": "southeast-link",
+      "kind": "covered",
+      "points": [
+        [1323, 997],
+        [1455, 1014],
+        [1477, 1009],
+        [1519, 1010],
+        [1686, 1034]
+      ]
+    },
+    {
+      "id": "entrance-link",
+      "kind": "covered",
+      "points": [
+        [1359, 665],
+        [1518, 676]
+      ]
+    },
+    {
+      "id": "student-services",
+      "kind": "covered",
+      "points": [
+        [877, 469],
+        [1018, 487],
+        [1165, 498],
+        [1303, 515]
+      ]
+    },
+    {
+      "id": "career-link",
+      "kind": "covered",
+      "points": [
+        [1311, 470],
+        [1303, 515],
+        [1290, 638]
+      ]
+    },
+    {
+      "id": "west-spine",
+      "kind": "covered",
+      "points": [
+        [877, 469],
+        [862, 610],
+        [842, 732],
+        [830, 930]
+      ]
+    },
+    {
+      "id": "west-spur",
+      "kind": "covered",
+      "points": [
+        [862, 610],
+        [1030, 632]
+      ]
+    },
+    {
+      "id": "southwest-link",
+      "kind": "covered",
+      "points": [
+        [239, 860],
+        [383, 882],
+        [594, 906],
+        [791, 920],
+        [830, 930],
+        [965, 950]
+      ]
+    },
+    {
+      "id": "west-classroom-link",
+      "kind": "covered",
+      "points": [
+        [231, 789],
+        [239, 860],
+        [221, 942]
+      ]
+    },
+    {
+      "id": "west-short-link",
+      "kind": "covered",
+      "points": [
+        [281, 874],
+        [275, 936]
+      ]
+    },
+    {
+      "id": "music-west",
+      "kind": "eave",
+      "building": "theater",
+      "points": [
+        [1580, -25],
+        [1551, 263],
+        [1551, 292]
+      ]
+    },
+    {
+      "id": "music-south",
+      "kind": "eave",
+      "building": "theater",
+      "points": [
+        [1551, 292],
+        [1758, 318],
+        [1757, 355]
+      ]
+    },
+    {
+      "id": "girls-short",
+      "kind": "eave",
+      "building": "girls-lockers",
+      "points": [
+        [1382, 176],
+        [1371, 239]
+      ]
+    },
+    {
+      "id": "cafeteria-east",
+      "kind": "eave",
+      "building": "cafeteria",
+      "points": [
+        [1036, 314],
+        [1026, 445],
+        [1018, 487]
+      ]
+    },
+    {
+      "id": "office-west",
+      "kind": "eave",
+      "building": "admin",
+      "points": [
+        [1594, 378],
+        [1587, 431],
+        [1572, 584],
+        [1561, 587],
+        [1554, 640]
+      ]
+    },
+    {
+      "id": "science-west",
+      "kind": "eave",
+      "building": "class77",
+      "points": [
+        [528, 554],
+        [518, 658],
+        [503, 779]
+      ]
+    },
+    {
+      "id": "science-north",
+      "kind": "eave",
+      "building": "class70",
+      "points": [
+        [518, 650],
+        [571, 643],
+        [645, 659],
+        [831, 673],
+        [852, 674]
+      ]
+    },
+    {
+      "id": "science-south",
+      "kind": "eave",
+      "building": "class73",
+      "points": [
+        [510, 723],
+        [560, 732],
+        [752, 761],
+        [840, 769]
+      ]
+    },
+    {
+      "id": "library-west-row",
+      "kind": "eave",
+      "building": "class40",
+      "points": [
+        [1030, 632],
+        [1026, 658],
+        [1010, 714],
+        [992, 936],
+        [990, 954]
+      ]
+    },
+    {
+      "id": "library-east-row",
+      "kind": "eave",
+      "building": "class30",
+      "points": [
+        [1359, 665],
+        [1337, 793],
+        [1314, 967],
+        [1310, 994]
+      ]
+    },
+    {
+      "id": "library-door",
+      "kind": "eave",
+      "building": "media",
+      "points": [
+        [1081, 974],
+        [1178, 984]
+      ]
+    },
+    {
+      "id": "language-north",
+      "kind": "eave",
+      "building": "business",
+      "points": [
+        [1508, 758],
+        [1531, 768],
+        [1768, 790]
+      ]
+    },
+    {
+      "id": "language-south",
+      "kind": "eave",
+      "building": "class5",
+      "points": [
+        [1498, 835],
+        [1632, 849],
+        [1775, 869]
+      ]
+    },
+    {
+      "id": "math-west",
+      "kind": "eave",
+      "building": "class15",
+      "points": [
+        [1554, 1018],
+        [1529, 1290]
+      ]
+    },
+    {
+      "id": "math-east",
+      "kind": "eave",
+      "building": "class10",
+      "points": [
+        [1640, 1030],
+        [1595, 1285]
+      ]
+    },
+    {
+      "id": "art-west",
+      "kind": "eave",
+      "building": "way-470981322",
+      "points": [
+        [674, 927],
+        [655, 1088]
+      ]
+    },
+    {
+      "id": "art-east",
+      "kind": "eave",
+      "building": "way-470981048",
+      "points": [
+        [749, 923],
+        [723, 1193]
+      ]
+    },
+    {
+      "id": "west-eave",
+      "kind": "eave",
+      "building": "weight",
+      "points": [
+        [231, 773],
+        [215, 951]
+      ]
+    },
+    {
+      "id": "southwest-eave",
+      "kind": "eave",
+      "building": "class60",
+      "points": [
+        [275, 936],
+        [326, 944],
+        [316, 1033]
+      ]
+    },
+    {
+      "id": "kings-row-eave",
+      "kind": "eave",
+      "building": "south-classrooms",
+      "points": [
+        [40, 1047],
+        [345, 1083]
+      ]
+    }
+  ],
+  "plazas": [
+    {
+      "id": "gym-quad",
+      "points": [
+        [798, 197],
+        [1536, 295],
+        [1518, 667],
+        [1280, 644],
+        [1280, 487],
+        [1064, 462],
+        [1053, 295],
+        [798, 283]
+      ]
+    },
+    {
+      "id": "library-forecourt",
+      "points": [
+        [831, 932],
+        [1330, 986],
+        [1323, 1042],
+        [836, 980]
+      ]
+    },
+    {
+      "id": "main-entry",
+      "points": [
+        [1525, 636],
+        [1801, 665],
+        [1804, 719],
+        [1531, 684]
+      ]
+    }
+  ]
+}
