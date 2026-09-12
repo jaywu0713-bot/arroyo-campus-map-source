@@ -34,6 +34,9 @@ type Props = {
   onExport: () => void;
   onImport: (json: string) => void;
   currentJson: () => string;
+  markerMode: boolean;
+  markerMessage: string;
+  onMarkerToggle: () => void;
 };
 
 const categories: { id: BuildCategory | 'all'; name: string }[] = [
@@ -66,6 +69,9 @@ export function BuilderPanel({
   onExport,
   onImport,
   currentJson,
+  markerMode,
+  markerMessage,
+  onMarkerToggle,
 }: Props) {
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState<BuildCategory | 'all'>('building');
@@ -122,10 +128,15 @@ export function BuilderPanel({
           <strong>建造模式</strong>
           <small>点击场景中的完整模型即可编辑</small>
         </div>
+        <Button className="marker-toggle" size="sm" aria-pressed={markerMode} variant={markerMode ? 'default' : 'outline'} onClick={onMarkerToggle}>
+          {markerMode ? '退出标记模式' : '开启标记模式'}
+        </Button>
         <button className="builder-close" onClick={onCancel} aria-label="退出建造模式">
           <X size={17} />
         </button>
       </div>
+      {markerMode && <p className="marker-instructions">单击建筑或地面添加圆点；拖动调整视角。鼠标移到圆点查看信息，可修改或删除。</p>}
+      {markerMessage && <p role="status" className="marker-instructions">{markerMessage}</p>}
 
       <div className="builder-history">
         <Button size="sm" variant="outline" disabled={!state.canUndo} onClick={onUndo}>

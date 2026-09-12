@@ -35,6 +35,9 @@ import {
 import { BuilderPanel } from '@/components/builder-panel';
 import { emptyBuilderState, type BuilderState } from '@/lib/builder-types';
 import data from '../data/campus.json';
+import { MarkerEditor } from './marker-editor';
+import { markerKey, readMarkers, type RoomMarker } from '../lib/room-markers';
+import versionOneMarkers from '../data/version-1.0-room-markers.json';
 const places = [...data.landmarks].sort((a, b) =>
   a.id === 'admin' ? -1 : b.id === 'admin' ? 1 : 0,
 );
@@ -54,6 +57,27 @@ export default function CampusViewer() {
     [info, setInfo] = useState(false),
     [panelChoice, setPanel] = useState<boolean | null>(null),
     [builder, setBuilder] = useState<BuilderState>(emptyBuilderState);
+  const [markerMode, setMarkerMode] = useState(false);
+  const [markerDraft, setMarkerDraft] = useState<RoomMarker|null>(null);
+  const [markers, setMarkers] = useState<RoomMarker[]>(()=>{
+    const saved=readMarkers(typeof window==='undefined'?null:localStorage.getItem(markerKey));
+    const imported=readMarkers(JSON.stringify(versionOneMarkers));
+    const ids=new Set(saved.map(m=>m.id));
+    return [...imported.filter(m=>!ids.has(m.id)),...saved];
+  });
+  const markersRef=useRef(markers);
+  const [markerMessage,setMarkerMessage]=useState('');
+  const [hoverMarker,setHoverMarker]=useState<{id:string;x:number;y:number}|null>(null);
+  const hoverTimer=useRef<ReturnType<typeof setTimeout>|null>(null);
+  const keepHover=()=>{if(hoverTimer.current)clearTimeout(hoverTimer.current);};
+  const hideHover=()=>{keepHover();hoverTimer.current=setTimeout(()=>setHoverMarker(null),220);};
+  const hoverInfo=markers.find(m=>m.id===hoverMarker?.id);
+  useEffect(()=>()=>{if(hoverTimer.current)clearTimeout(hoverTimer.current);},[]);
+  useEffect(()=>{markersRef.current=markers;engine.current?.setMarkers(markers);},[markers]);
+  const persistMarkers=(items:RoomMarker[])=>{
+    try{localStorage.setItem(markerKey,JSON.stringify(items));setMarkers(items);setMarkerDraft(null);setMarkerMessage('标记已保存到此浏览器，可再次点击编辑。');}
+    catch{setMarkerMessage('保存失败：浏览器存储不可用，请保留表单内容。');}
+  };
   const smallScreen = useSyncExternalStore(
     subscribeToScreen,
     () => window.matchMedia(smallScreenQuery).matches,
@@ -87,13 +111,17 @@ export default function CampusViewer() {
             setBuilder(state);
             // Build mode is a free-flight editor. Closing it should return to
             // the same fly camera family instead of resetting to campus view.
-            setMode('fly');
           },
+          (target) => {setMarkerMessage('');setMarkerDraft({...target,id:crypto.randomUUID(),room:'',teacher:'',subject:'',floor:''});},
+          (id) => {const item=markersRef.current.find(m=>m.id===id);if(item)setMarkerDraft({...item});},
+          setMarkerMessage,
+          (value)=>{if(value){keepHover();setHoverMarker(value);}else hideHover();},
         );
         engine.current = controller;
+        controller.setMarkers(markersRef.current);
         // Campus view is intentionally removed from the product. Start in
         // the fly camera before the first rendered frame can expose overview.
-        controller.setMode('fly');
+        controller.setBuildMode(true);
       } catch {
         setError(
           'This browser could not start 3D graphics. Try a current browser with hardware acceleration enabled.',
@@ -115,7 +143,9 @@ export default function CampusViewer() {
   const place = data.landmarks.find((p) => p.id === selected),
     building = data.buildings.find((p) => p.id === selected);
   const changeMode = (value: unknown) => {
+    setMarkerMode(false);setMarkerDraft(null);engine.current?.setMarkerMode(false);
     if (value === 'fly') {
+      setMode('fly');
       engine.current?.setBuildMode(true);
       return;
     }
@@ -125,10 +155,21 @@ export default function CampusViewer() {
     engine.current?.setMode(m);
     if (m !== 'overview') setPanel(false);
   };
-  const toggleBuildMode = () => engine.current?.setBuildMode(!builder.active);
+  const toggleBuildMode = () => {setMarkerMode(false);setMarkerDraft(null);engine.current?.setBuildMode(!builder.active);};
   const activeName = place?.name || building?.name;
   return (
     <main className="campus-app">
+      {hoverMarker && hoverInfo && !markerDraft && <section className="marker-popover" aria-label="标记信息" style={{left:Math.max(8,Math.min(hoverMarker.x-110,window.innerWidth-248)),top:Math.max(8,Math.min(hoverMarker.y-195,window.innerHeight-210))}} onPointerEnter={keepHover} onPointerLeave={hideHover}>
+        <strong>{hoverInfo.room}</strong>
+        <p>位置：{hoverInfo.building}{hoverInfo.floor?' · '+hoverInfo.floor:''}</p>
+        <p>老师：{hoverInfo.teacher||'未填写'}</p><p>教学种类：{hoverInfo.subject||'未填写'}</p>
+        <div className="room-actions"><button className="ui-button" onClick={()=>{setMarkerDraft({...hoverInfo});setHoverMarker(null);}}>修改</button><button className="ui-button ui-outline" onClick={()=>{persistMarkers(markers.filter(m=>m.id!==hoverInfo.id));setHoverMarker(null);}}>删除</button></div>
+      </section>}
+      <Dialog open={!!markerDraft} onOpenChange={open=>{if(!open)setMarkerDraft(null)}}>
+        <DialogContent className="room-dialog"><DialogTitle>编辑房间信息</DialogTitle><DialogDescription>填写教室编号；老师和教学种类可以留空。</DialogDescription>
+          {markerDraft && <MarkerEditor key={markerDraft.id} marker={markerDraft} onSave={item=>persistMarkers([...markers.filter(m=>m.id!==item.id),item])} onCancel={()=>setMarkerDraft(null)} onDelete={()=>persistMarkers(markers.filter(m=>m.id!==markerDraft.id))}/>}
+        </DialogContent>
+      </Dialog>
       <div className="scene" ref={host} />
       {status === 'ready' && (
         <div className="scene-labels" aria-hidden="true">
@@ -161,7 +202,7 @@ export default function CampusViewer() {
               <Footprints size={16} />
               Walk around
             </TabsTrigger>
-            <TabsTrigger value="fly" disabled={status !== 'ready'}>Fly / 飞行</TabsTrigger>
+            <TabsTrigger value="fly" disabled={status !== 'ready'} onClick={()=>{if(mode==='fly'&&!builder.active)engine.current?.setBuildMode(true)}}>Fly / 飞行</TabsTrigger>
           </TabsList>
         </Tabs>
         <Button
@@ -197,6 +238,9 @@ export default function CampusViewer() {
           }}
           onImport={(json) => engine.current?.importBuild(json)}
           currentJson={() => engine.current?.exportBuild() || ''}
+          markerMode={markerMode}
+          markerMessage={markerMessage}
+          onMarkerToggle={() => { const next = !markerMode; setMarkerMode(next);setMarkerMessage('');setMarkerDraft(null); engine.current?.setMarkerMode(next); }}
         />
       )}
       <aside className={`places-panel ${panel ? '' : 'collapsed'}`}>

@@ -6,7 +6,8 @@
     "node": ">=22.13.0"
   },
   "scripts": {
-    "dev": "vinext dev",
+    "dev": "vite --config vite.static.config.ts --host 127.0.0.1 --port 3001 --strictPort",
+    "dev:sites": "vinext dev",
     "preview:static": "vite --config vite.static.config.ts --host 127.0.0.1",
     "build:static": "vite build --config vite.static.config.ts && node scripts/prepare-github-pages.mjs",
     "build": "vinext build",

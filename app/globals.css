@@ -1,6 +1,22 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @import 'shadcn/tailwind.css';
+.ui-button {display:inline-flex;align-items:center;justify-content:center;gap:5px;padding:8px 10px;border:1px solid #1857b6;border-radius:8px;background:#1857b6;color:white;cursor:pointer;font-size:12px;white-space:nowrap;}
+.ui-button:disabled {opacity:.45;cursor:default;}
+.ui-outline {background:white;color:#203b55;border-color:#d2dee8;}
+.builder-title > div {min-width:0;flex:1;}
+.builder-title .builder-close {flex:0 0 30px;}
+.marker-toggle {flex-shrink:0;}
+.marker-instructions {font-size:12px;line-height:1.5;background:#eaf3ff;border-radius:8px;padding:8px;}
+.dialog-backdrop {position:fixed;inset:0;background:#10233970;z-index:50;}
+.room-dialog,.about-dialog {position:fixed;z-index:51;left:50%;top:50%;transform:translate(-50%,-50%);width:min(420px,calc(100vw - 32px));max-height:calc(100svh - 32px);overflow:auto;padding:22px;background:white;color:#203b55;border-radius:16px;box-shadow:0 20px 60px #0004;}
+.room-editor {display:grid;gap:12px;margin:14px 0;}
+.room-editor label {display:grid;gap:5px;font-size:14px;}
+.room-editor input,.room-editor select {width:100%;padding:8px;border:1px solid #bccddd;border-radius:6px;background:white;color:#203b55;}
+.room-actions {display:flex;gap:8px;}
+.marker-popover {position:fixed;z-index:30;width:240px;padding:14px;border:1px solid #d2dee8;border-radius:12px;background:white;color:#203b55;box-shadow:0 8px 30px #0003;pointer-events:auto;font-size:13px;}
+.marker-popover p {margin:5px 0;overflow-wrap:anywhere;}
+.marker-popover .room-actions {margin-top:10px;}
 @custom-variant dark (&:is(.dark *));
 @theme inline {
   --color-background: var(--background);

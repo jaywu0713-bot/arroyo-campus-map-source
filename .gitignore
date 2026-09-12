@@ -42,3 +42,7 @@ model/campus-overview.png
 
 # Python build cache
 __pycache__/
+/static-dist/
+/static/static-dist/
+preview*.log
+dev.log

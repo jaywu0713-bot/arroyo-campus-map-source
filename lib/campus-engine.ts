@@ -12,6 +12,7 @@ import editorAssets from '../data/editor-assets.json';
 import defaultBuild from '../data/default-campus-build.json';
 import { BuildSession, type Vec3 } from './build-session';
 import type { BuilderState, BuildTool } from './builder-types';
+import type { RoomMarker, MarkerTarget } from './room-markers';
 
 export type ViewMode = 'overview' | 'walk' | 'fly';
 export type CampusController = {
@@ -24,6 +25,8 @@ export type CampusController = {
   undoBuildPiece: () => void;
   redoBuildPiece: () => void;
   setBuildMode: (active: boolean) => void;
+  setMarkerMode: (active: boolean) => void;
+  setMarkers: (markers: RoomMarker[]) => void;
   setBuildTool: (tool: BuildTool) => void;
   setBuildSnap: (snap: boolean) => void;
   duplicateBuildPiece: () => void;
@@ -49,6 +52,10 @@ export function createCampusEngine(
   onSelect: (id: string) => void,
   onFrame: (labels: LabelPosition[]) => void,
   onBuilder: (state: BuilderState) => void = () => {},
+  onMarker: (target: MarkerTarget) => void = () => {},
+  onMarkerEdit: (id: string) => void = () => {},
+  onMarkerMessage: (message: string) => void = () => {},
+  onMarkerHover: (value: {id:string;x:number;y:number}|null) => void = () => {},
 ): CampusController {
   const touch = window.matchMedia('(pointer: coarse)').matches;
   const renderer = new THREE.WebGLRenderer({
@@ -121,7 +128,43 @@ export function createCampusEngine(
     labelTime = 0,
     highlight: THREE.BoxHelper | undefined;
   let session: BuildSession | undefined;
-  let builderActive = false, buildTool: BuildTool = 'translate', buildSnap = true;
+  let builderActive = false, markerActive = false, buildTool: BuildTool = 'translate', buildSnap = true;
+  const markerGroup = new THREE.Group(); scene.add(markerGroup);
+  let savedMarkers: RoomMarker[] = [];
+  let hoveredMarker: string|null=null;
+  const markerOwner = (id:string) => id==='@ground'?model:session?.object(id);
+  const surfaceHits = () => model ? raycaster.intersectObject(model,true).filter(hit=>{
+    for(let obj:THREE.Object3D|null=hit.object;obj;obj=obj.parent)if(!obj.visible)return false;
+    return true;
+  }) : [];
+  const showMarker = (id:string|null) => {
+    hoveredMarker=id;
+    const sprite=markerGroup.children.find(c=>c.userData.markerId===id);
+    if(!sprite||!sprite.visible){onMarkerHover(null);return;}
+    const p=sprite.position.clone().project(camera),rect=canvas.getBoundingClientRect();
+    onMarkerHover({id:id!,x:rect.left+(p.x+1)*rect.width/2,y:rect.top+(1-p.y)*rect.height/2});
+  };
+  let moved = false;
+  const clearMarkers = () => {
+    for (const child of [...markerGroup.children]) {
+      const sprite = child as THREE.Sprite;
+      sprite.material.map?.dispose(); sprite.material.dispose(); markerGroup.remove(sprite);
+    }
+  };
+  const setMarkers = (items: RoomMarker[]) => {
+    savedMarkers = items;
+    clearMarkers();
+    for (const item of items) {
+      const label = document.createElement('canvas'); label.width=64; label.height=64;
+      const ctx=label.getContext('2d')!;
+      ctx.beginPath();ctx.arc(32,32,27,0,Math.PI*2);ctx.fillStyle='#dc2626';ctx.fill();
+      ctx.lineWidth=6;ctx.strokeStyle='white';ctx.stroke();
+      const texture=new THREE.CanvasTexture(label); texture.colorSpace=THREE.SRGBColorSpace;
+      const sprite=new THREE.Sprite(new THREE.SpriteMaterial({map:texture,depthTest:true,depthWrite:false,alphaTest:.1}));
+      sprite.userData.markerId=item.id; sprite.center.set(.5,0); markerGroup.add(sprite);
+    }
+    wake();
+  };
   let selectedBuild: string | null = null, pendingTemplate: string | null = null;
   let ghost: THREE.Group | null = null, gizmoPointer = false;
   let buildHighlight: THREE.BoxHelper | null = null;
@@ -174,6 +217,7 @@ export function createCampusEngine(
     buildSnap=snap;transform.setTranslationSnap(snap?.5:null);transform.setRotationSnap(snap?Math.PI/12:null);transform.setScaleSnap(snap?.1:null);publishBuilder();
   };
   const addBuildPiece = (templateId: string) => {
+    if(markerActive)return;
     if(!builderActive||!session)return;
     cancelPlacement();selectBuild(null);ghost=session.preview(templateId)||null;if(!ghost)return;
     ghost.traverse(o=>{if(o instanceof THREE.Mesh){const soften=(m:THREE.Material)=>{const c=m.clone();c.transparent=true;c.opacity=.55;c.depthWrite=false;return c;};o.material=Array.isArray(o.material)?o.material.map(soften):soften(o.material);o.castShadow=false;}});
@@ -248,6 +292,7 @@ export function createCampusEngine(
     wake();
   };
   const setBuildMode = (active: boolean) => {
+    markerActive=false;
     // Build mode is a free-flight variant of the fly camera. Keep the
     // engine's internal mode in sync so vertical movement and unconstrained
     // navigation use the same flight branch as the Fly tab.
@@ -274,6 +319,11 @@ export function createCampusEngine(
       ...(entranceObstacles as Point[][]),
     ];
     canvas.focus({preventScroll:true});publishBuilder();
+  };
+  const setMarkerMode = (active: boolean) => {
+    markerActive=active&&builderActive; cancelPlacement(); selectBuild(null); transform.enabled=false;
+    pressed.clear(); down=null; drag=null; canvas.style.cursor=markerActive?'crosshair':'';
+    canvas.focus({preventScroll:true}); wake();
   };
   const reset = () => {
     pressed.clear();
@@ -381,8 +431,10 @@ export function createCampusEngine(
   observer.observe(host);
   resize();
   const pointerDown = (e: PointerEvent) => {
+    showMarker(null);
     transition = null;
     if (e.button !== 0) return;
+    moved=false;
     // OrbitControls must never receive mouse control outside the removed
     // overview camera. Lock it again at the event boundary as a safeguard
     // against focus/blur and transform-control listeners.
@@ -405,6 +457,14 @@ export function createCampusEngine(
     }
   };
   const pointerMove = (e: PointerEvent) => {
+    if(!down){
+      const rect=canvas.getBoundingClientRect();pointer.set((e.clientX-rect.left)/rect.width*2-1,1-(e.clientY-rect.top)/rect.height*2);
+      camera.updateMatrixWorld();raycaster.setFromCamera(pointer,camera);
+      const pin=raycaster.intersectObjects(markerGroup.children.filter(c=>c.visible),false)[0], hit=pin?surfaceHits()[0]:undefined;
+      const id=pin&&(!hit||pin.distance<=hit.distance+.3)?pin.object.userData.markerId:null;
+      showMarker(id);canvas.style.cursor=id?'pointer':markerActive?'crosshair':'';
+    }
+    if(down&&Math.hypot(e.clientX-down.x,e.clientY-down.y)>=5) moved=true;
     if(builderActive){
       if(ghost&&pendingTemplate&&session){
         const rect=canvas.getBoundingClientRect();pointer.set((e.clientX-rect.left)/rect.width*2-1,1-(e.clientY-rect.top)/rect.height*2);raycaster.setFromCamera(pointer,camera);
@@ -432,8 +492,31 @@ export function createCampusEngine(
     wake();
   };
   const pointerUp = (e: PointerEvent) => {
+    const tap=!!down&&!moved&&e.button===0&&Math.hypot(e.clientX-down.x,e.clientY-down.y)<5;
+    if(tap && session){
+      const rect=canvas.getBoundingClientRect(); pointer.set((e.clientX-rect.left)/rect.width*2-1,1-(e.clientY-rect.top)/rect.height*2);
+      camera.updateMatrixWorld(); model?.updateWorldMatrix(true,true); raycaster.setFromCamera(pointer,camera);
+      const hits=surfaceHits();
+      const pin=raycaster.intersectObjects(markerGroup.children.filter(c=>c.visible),false)[0];
+      if(pin && (!hits[0] || pin.distance<=hits[0].distance+1)){
+        showMarker(pin.object.userData.markerId); down=null;drag=null;wake();return;
+      }
+      if(markerActive&&builderActive){
+        const hit=hits[0], owner=hit&&session.ownerOf(hit.object);
+        const item=owner?session.item(owner):undefined, template=item?session.template(item.templateId):undefined;
+        const upward=!!hit?.face && hit.face.normal.clone().applyMatrix3(new THREE.Matrix3().getNormalMatrix(hit.object.matrixWorld)).normalize().y>.5;
+        const ground=upward && (!owner || (template?.category==='decoration' && hit.point.y<=1 && template.size[1]<=1));
+        if(hit && (ground || (template&&['building','grass','walkway'].includes(template.category)))){
+          const obj=owner?session.object(owner)!:model!;
+          const normal=hit.face?.normal.clone().applyMatrix3(new THREE.Matrix3().getNormalMatrix(hit.object.matrixWorld)).normalize()||new THREE.Vector3(0,1,0);
+          const local=obj.worldToLocal(hit.point.clone().addScaledVector(normal,.06));
+          onMarker({owner:owner||'@ground',point:local.toArray() as Vec3,building:ground?'地面':template?.name||'地面'});
+        }else onMarkerMessage('请点击建筑物或地面表面，天空和装饰物不能放置房间标记。');
+        down=null;drag=null;wake();return;
+      }
+    }
     if(builderActive){
-      const clicked=down&&Math.hypot(e.clientX-down.x,e.clientY-down.y)<5;
+      const clicked=tap;
       if(!gizmoPointer&&!transform.dragging&&clicked&&session){
         if(pendingTemplate&&ghost){
           // Tap placement also works without a preceding pointermove.
@@ -487,7 +570,7 @@ export function createCampusEngine(
       else if(e.code==='KeyR'){e.preventDefault();rotateBuildPiece(90);}
       else if(e.code==='KeyG')setBuildTool('translate');
       else if(e.code==='KeyT')setBuildTool('rotate');
-      else if(['KeyW','KeyA','KeyS','KeyD','KeyE','KeyQ','ShiftLeft','ShiftRight'].includes(e.code)){e.preventDefault();pressed.add(e.code);wake();}
+      else if(['KeyW','KeyA','KeyS','KeyD','KeyE','KeyQ','ArrowUp','ArrowDown','ArrowLeft','ArrowRight','ShiftLeft','ShiftRight'].includes(e.code)){e.preventDefault();pressed.add(e.code);wake();}
       else if(e.code==='Escape'){cancelPlacement();transform.reset();session?.cancel();selectBuild(null);}
       return;
     }
@@ -641,6 +724,15 @@ export function createCampusEngine(
         }),
       );
     }
+    for(let i=0;i<savedMarkers.length;i++){
+      const item=savedMarkers[i], sprite=markerGroup.children[i], owner=markerOwner(item.owner);
+      sprite.visible=!!owner&&owner.visible;
+      if(owner){owner.updateWorldMatrix(true,false);sprite.position.copy(owner.localToWorld(new THREE.Vector3(...item.point)));}
+      const depth=-sprite.position.clone().applyMatrix4(camera.matrixWorldInverse).z;
+      const size=Math.max(.02,depth)*2*Math.tan(THREE.MathUtils.degToRad(camera.fov/2))*16/host.clientHeight;
+      sprite.scale.set(size,size,1);
+    }
+    if(hoveredMarker)showMarker(hoveredMarker);
     renderer.render(scene, camera);
     if (
       !frame &&
@@ -678,6 +770,8 @@ export function createCampusEngine(
     undoBuildPiece,
     redoBuildPiece,
     setBuildMode,
+    setMarkerMode,
+    setMarkers,
     setBuildTool,
     setBuildSnap,
     duplicateBuildPiece,
@@ -689,6 +783,7 @@ export function createCampusEngine(
     exportBuild,
     dispose: () => {
       disposed = true;
+      clearMarkers();
       cancelAnimationFrame(frame);
       observer.disconnect();
       controls.removeEventListener('change', wake);

@@ -1,0 +1,1234 @@
+[
+  {
+    "owner": "class10",
+    "point": [
+      -4.6151773450631595,
+      4.958781469075012,
+      12.852866231804967
+    ],
+    "building": "Math Classrooms · East",
+    "id": "e39f8dff-a8bf-495e-8339-cdf276af9b34",
+    "room": "14",
+    "teacher": "",
+    "subject": "数学",
+    "floor": ""
+  },
+  {
+    "owner": "class10",
+    "point": [
+      -3.808912107007444,
+      4.839493717062075,
+      3.8564440222724556
+    ],
+    "building": "Math Classrooms · East",
+    "id": "7892355d-38e7-49a9-9fff-4b520564a4c0",
+    "room": "13",
+    "teacher": "",
+    "subject": "数学",
+    "floor": ""
+  },
+  {
+    "owner": "class10",
+    "point": [
+      -3.5947994310271554,
+      4.670267276061557,
+      -3.0147518340346267
+    ],
+    "building": "Math Classrooms · East",
+    "id": "b58add1d-7971-47e2-8893-60a896eba966",
+    "room": "12",
+    "teacher": "",
+    "subject": "数学",
+    "floor": ""
+  },
+  {
+    "owner": "class10",
+    "point": [
+      -1.8378947990273389,
+      4.82560617956114,
+      -9.597524382419778
+    ],
+    "building": "Math Classrooms · East",
+    "id": "8dd593b8-ab3b-4d2a-bc69-d34d0217713d",
+    "room": "11",
+    "teacher": "",
+    "subject": "数学",
+    "floor": ""
+  },
+  {
+    "owner": "class10",
+    "point": [
+      -0.7158049612046682,
+      4.838813193119668,
+      -17.099274282693813
+    ],
+    "building": "Math Classrooms · East",
+    "id": "b66b9bf2-ad13-4794-8b27-2840552e398a",
+    "room": "10",
+    "teacher": "",
+    "subject": "数学",
+    "floor": ""
+  },
+  {
+    "owner": "class15",
+    "point": [
+      -0.930055945548645,
+      4.89193111920417,
+      0.7735098301724861
+    ],
+    "building": "Math Classrooms",
+    "id": "361ec9bd-8b2f-49e9-bb86-6a9ce487606a",
+    "room": "17",
+    "teacher": "",
+    "subject": "数学",
+    "floor": ""
+  },
+  {
+    "owner": "class15",
+    "point": [
+      -3.190030655808016,
+      4.694274326923012,
+      16.02176888969123
+    ],
+    "building": "Math Classrooms",
+    "id": "11597a8f-5aee-456e-a97a-68c35a2fc086",
+    "room": "15",
+    "teacher": "",
+    "subject": "数学",
+    "floor": ""
+  },
+  {
+    "owner": "class15",
+    "point": [
+      -2.5087694759463375,
+      4.682030102608384,
+      8.189929040005154
+    ],
+    "building": "Math Classrooms",
+    "id": "1ed6b60e-6f82-4663-a26f-f634acbaa282",
+    "room": "16",
+    "teacher": "",
+    "subject": "数学",
+    "floor": ""
+  },
+  {
+    "owner": "class15",
+    "point": [
+      -1.246350321861513,
+      4.669721767802653,
+      -5.909164107490682
+    ],
+    "building": "Math Classrooms",
+    "id": "f5d0c627-590f-4717-a37d-3a6db85704ba",
+    "room": "18",
+    "teacher": "",
+    "subject": "历史",
+    "floor": ""
+  },
+  {
+    "owner": "class15",
+    "point": [
+      0.47835324074023333,
+      4.857600858493168,
+      -16.137821077091957
+    ],
+    "building": "Math Classrooms",
+    "id": "a0978a1e-b0ca-444d-8e10-47a48835a9ef",
+    "room": "19",
+    "teacher": "",
+    "subject": "数学",
+    "floor": ""
+  },
+  {
+    "owner": "class5",
+    "point": [
+      0.19206672869214003,
+      4.5664415594574495,
+      -0.7954096789726464
+    ],
+    "building": "Language Classrooms",
+    "id": "f7869755-ea47-4289-980a-a4f1153533fc",
+    "room": "6A",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class5",
+    "point": [
+      -7.446379498277082,
+      4.150915786851828,
+      -2.5284593995823457
+    ],
+    "building": "Language Classrooms",
+    "id": "617a206f-7cbb-4d5b-9ef4-e7941c0facb4",
+    "room": "7",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class5",
+    "point": [
+      -16.565484763661914,
+      4.535228331983103,
+      -2.042802816234712
+    ],
+    "building": "Language Classrooms",
+    "id": "d279cd1b-ec21-4fcc-9638-ec0543da01c8",
+    "room": "8",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class5",
+    "point": [
+      8.977438502604542,
+      4.495724126850523,
+      -0.4067398960712012
+    ],
+    "building": "Language Classrooms",
+    "id": "1bfba247-d6c2-43de-8bd3-e62b851651db",
+    "room": "6",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class5",
+    "point": [
+      18.134909612972706,
+      4.535228331983089,
+      0.27578377819941124
+    ],
+    "building": "Language Classrooms",
+    "id": "62306556-1d8c-43d1-82ff-d431b6fd859b",
+    "room": "5",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "business",
+    "point": [
+      -14.737073081851435,
+      3.983131215283896,
+      1.8780184269424183
+    ],
+    "building": "Language Center",
+    "id": "155f4515-7914-470c-a36e-18b22279672b",
+    "room": "1",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "business",
+    "point": [
+      -3.721537041562499,
+      4.248394284295221,
+      1.9599563266192774
+    ],
+    "building": "Language Center",
+    "id": "be7b9320-7d12-488e-8df7-261db6b343dc",
+    "room": "2",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "business",
+    "point": [
+      7.745018228959395,
+      4.291039967506956,
+      2.7768230358948784
+    ],
+    "building": "Language Center",
+    "id": "12db4547-d2bc-4367-985e-18b9bd514f56",
+    "room": "3",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "business",
+    "point": [
+      16.966241392394636,
+      4.232550942471329,
+      3.703193362060631
+    ],
+    "building": "Language Center",
+    "id": "fac53e3b-3801-4446-9d89-0cd67dc2eac6",
+    "room": "4",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class30",
+    "point": [
+      -1.2742512138555355,
+      4.79565843172224,
+      10.846246548095266
+    ],
+    "building": "East Classroom Row",
+    "id": "e6dc8c73-6fda-4058-8d46-ad52c7b14581",
+    "room": "31",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class30",
+    "point": [
+      -3.4232398814271363,
+      4.478515201961487,
+      18.980382626813068
+    ],
+    "building": "East Classroom Row",
+    "id": "8a4bc876-025c-4701-a8fe-b9b45bf5eb9c",
+    "room": "30",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class30",
+    "point": [
+      -1.596952674228703,
+      4.507499774396419,
+      3.628916929456338
+    ],
+    "building": "East Classroom Row",
+    "id": "6f6aa832-fe32-45ae-b0fb-f1ae928d612c",
+    "room": "32",
+    "teacher": "",
+    "subject": "英语",
+    "floor": ""
+  },
+  {
+    "owner": "class30",
+    "point": [
+      -1.4039474477879992,
+      4.233819302260864,
+      -4.09815592724803
+    ],
+    "building": "East Classroom Row",
+    "id": "7a18c632-e8b9-40cf-99a4-bb9373800d6d",
+    "room": "33",
+    "teacher": "",
+    "subject": "英语",
+    "floor": ""
+  },
+  {
+    "owner": "class30",
+    "point": [
+      -0.46800955470476424,
+      4.252174987441061,
+      -11.685478106802407
+    ],
+    "building": "East Classroom Row",
+    "id": "0c54ed8f-30bb-4dfc-8bd7-6877be71dd87",
+    "room": "34",
+    "teacher": "",
+    "subject": "英语",
+    "floor": ""
+  },
+  {
+    "owner": "class30",
+    "point": [
+      0.25888779510128757,
+      4.189012608987719,
+      -19.79233961203944
+    ],
+    "building": "East Classroom Row",
+    "id": "ca0f8678-d6cb-4eaa-a079-b2d9fe17b63c",
+    "room": "35",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class36",
+    "point": [
+      -12.200684256830854,
+      4.924519324630314,
+      1.025059289672427
+    ],
+    "building": "Classrooms",
+    "id": "0eb5d907-3fa9-4311-b027-55848b59490f",
+    "room": "39",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class36",
+    "point": [
+      -3.773229080818979,
+      5.009834981052659,
+      1.8371877637707286
+    ],
+    "building": "Classrooms",
+    "id": "39f55fcd-f4f6-4324-b236-5b55aab3a2e6",
+    "room": "38",
+    "teacher": "",
+    "subject": "其他",
+    "floor": ""
+  },
+  {
+    "owner": "class36",
+    "point": [
+      4.62296285135433,
+      4.978234725479251,
+      3.136663918461025
+    ],
+    "building": "Classrooms",
+    "id": "187ac214-fc74-4006-aacc-20515a4a3aa3",
+    "room": "37",
+    "teacher": "",
+    "subject": "英语",
+    "floor": ""
+  },
+  {
+    "owner": "class36",
+    "point": [
+      13.108474735421666,
+      5.017056350259129,
+      4.152389001436148
+    ],
+    "building": "Classrooms",
+    "id": "bc740fe5-ad4c-4274-84ff-fee8dbd0cbb7",
+    "room": "36",
+    "teacher": "Activity Center",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class40",
+    "point": [
+      2.177326229879597,
+      4.980950465907723,
+      10.446517163159712
+    ],
+    "building": "West Classroom Row",
+    "id": "6a2e0320-10c7-4019-90bd-a871d6338d39",
+    "room": "44",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class40",
+    "point": [
+      0.24269849104029362,
+      5.213152650653042,
+      18.659864292384228
+    ],
+    "building": "West Classroom Row",
+    "id": "8c0be0f5-40fa-4670-885a-6c4617ae95b3",
+    "room": "45",
+    "teacher": "",
+    "subject": "数学",
+    "floor": ""
+  },
+  {
+    "owner": "class40",
+    "point": [
+      3.16283809177083,
+      4.895067523663512,
+      4.152122320929351
+    ],
+    "building": "West Classroom Row",
+    "id": "b83ec7f1-d31c-4c8b-b3ce-8b8a06dab617",
+    "room": "43",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class40",
+    "point": [
+      3.3676101037786594,
+      4.992469955394244,
+      -4.226712903062861
+    ],
+    "building": "West Classroom Row",
+    "id": "5c45d5e8-0a8a-496b-9d9f-c748a9497cca",
+    "room": "42",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class40",
+    "point": [
+      3.8760959216160487,
+      5.029178312134557,
+      -11.960225337873595
+    ],
+    "building": "West Classroom Row",
+    "id": "7b0fbeb2-928c-4abf-a43b-e322833ac7ae",
+    "room": "41",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class40",
+    "point": [
+      4.647050577357767,
+      5.015972746683235,
+      -19.401934245725357
+    ],
+    "building": "West Classroom Row",
+    "id": "3363d4c0-dc64-402a-9e60-cc322704ed6c",
+    "room": "40",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class70",
+    "point": [
+      -11.058927630785456,
+      4.3400000011920925,
+      1.190710495361543
+    ],
+    "building": "Science Classrooms · North",
+    "id": "2e6dbbd9-e3f3-4ef5-9d9b-9119ef5b8f89",
+    "room": "70",
+    "teacher": "",
+    "subject": "科学",
+    "floor": ""
+  },
+  {
+    "owner": "class70",
+    "point": [
+      0.4132756981033161,
+      4.3400000011920925,
+      1.869712892339237
+    ],
+    "building": "Science Classrooms · North",
+    "id": "76e3d900-794a-4685-b938-440cadae72cc",
+    "room": "71",
+    "teacher": "",
+    "subject": "科学",
+    "floor": ""
+  },
+  {
+    "owner": "class70",
+    "point": [
+      12.032333674651483,
+      4.3400000011921,
+      2.1942418897933607
+    ],
+    "building": "Science Classrooms · North",
+    "id": "be52d505-e83f-4ccb-9456-ea3a1642dd82",
+    "room": "72",
+    "teacher": "",
+    "subject": "科学",
+    "floor": ""
+  },
+  {
+    "owner": "class73",
+    "point": [
+      -12.514346847350692,
+      4.3400000011921,
+      -3.3500016904673515
+    ],
+    "building": "Science Classrooms · South",
+    "id": "ee44a6cb-6f98-4ef9-bab9-97809cd8aad7",
+    "room": "76",
+    "teacher": "",
+    "subject": "科学",
+    "floor": ""
+  },
+  {
+    "owner": "class73",
+    "point": [
+      -2.9636514993576952,
+      4.3400000011920925,
+      -2.529063743065933
+    ],
+    "building": "Science Classrooms · South",
+    "id": "f7723960-5c53-4ec4-b868-80d47cbd566a",
+    "room": "75",
+    "teacher": "",
+    "subject": "科学",
+    "floor": ""
+  },
+  {
+    "owner": "class73",
+    "point": [
+      6.208003724231274,
+      4.3400000011920925,
+      -1.4672203009851188
+    ],
+    "building": "Science Classrooms · South",
+    "id": "d306c1a3-f8cd-422e-84fb-722b3de06205",
+    "room": "74",
+    "teacher": "",
+    "subject": "科学",
+    "floor": ""
+  },
+  {
+    "owner": "class73",
+    "point": [
+      15.241627859433345,
+      4.340000001192085,
+      -1.068018621756849
+    ],
+    "building": "Science Classrooms · South",
+    "id": "3c9d49ae-beef-480b-b5c4-6a2ec1cfbff5",
+    "room": "73",
+    "teacher": "",
+    "subject": "科学",
+    "floor": ""
+  },
+  {
+    "owner": "class77",
+    "point": [
+      2.9025417035940784,
+      4.3400000011920925,
+      -0.5190195628332503
+    ],
+    "building": "Science Classrooms",
+    "id": "3f9c1e12-e9dd-48ac-b6b4-69ec92af8e60",
+    "room": "78",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class77",
+    "point": [
+      2.592978426406276,
+      4.3400000011921,
+      12.135517151462793
+    ],
+    "building": "Science Classrooms",
+    "id": "5f003a7e-922c-4aa3-ab12-e63da597c6f2",
+    "room": "77",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class77",
+    "point": [
+      4.736848508831935,
+      4.3400000011921,
+      -13.882466678555573
+    ],
+    "building": "Science Classrooms",
+    "id": "f3390f70-50c2-48ea-a619-11b8f03ddb6e",
+    "room": "79",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "way-470981322",
+    "point": [
+      4.083646578455534,
+      4.675044949931899,
+      -7.492353669102727
+    ],
+    "building": "Art Classrooms · West",
+    "id": "dc3151df-19b8-414d-92f4-1d059fcc157d",
+    "room": "55",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "way-470981322",
+    "point": [
+      3.034306661856961,
+      4.635295919779755,
+      6.494531858729658
+    ],
+    "building": "Art Classrooms · West",
+    "id": "34df50fa-23ce-4424-b8ab-41393ab5f092",
+    "room": "54",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "way-470981048",
+    "point": [
+      -0.840631495803251,
+      5.010944167331468,
+      -11.966711024342487
+    ],
+    "building": "Art Classrooms",
+    "id": "3d6d2705-54bd-45fd-bc0f-0202976d3198",
+    "room": "51",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "way-470981048",
+    "point": [
+      -1.7732340837993519,
+      5.079081394675962,
+      -0.3340982134941157
+    ],
+    "building": "Art Classrooms",
+    "id": "5ea50db9-b5e0-4b9f-87b6-b03d9145026f",
+    "room": "52",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "way-470981048",
+    "point": [
+      -4.762723754272905,
+      4.617509028805941,
+      13.638534913771934
+    ],
+    "building": "Art Classrooms",
+    "id": "9a662a95-ecf1-40af-a859-cca9d12f7480",
+    "room": "53",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class60",
+    "point": [
+      1.5631205482494224,
+      4.346666667858759,
+      -1.0320996586473257
+    ],
+    "building": "Southwest Classrooms",
+    "id": "801e52d9-5b0f-48d7-aa7b-c99c6c1c8903",
+    "room": "61",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class60",
+    "point": [
+      -6.8345048887205735,
+      4.346666667858759,
+      -10.783787789144583
+    ],
+    "building": "Southwest Classrooms",
+    "id": "f7e80d86-466a-4a16-9171-84eb74ac7c33",
+    "room": "60",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class60",
+    "point": [
+      -0.384093131482679,
+      4.346666667858759,
+      -11.138430850950186
+    ],
+    "building": "Southwest Classrooms",
+    "id": "11d6a1a5-ae64-4117-b89f-1f7d0ae495dd",
+    "room": "60B",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "class60",
+    "point": [
+      5.133985594681668,
+      4.346666667858759,
+      -10.117028085059644
+    ],
+    "building": "Southwest Classrooms",
+    "id": "8ea248ac-533c-405c-a7b3-bd8376f939be",
+    "room": "60A",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "south-classrooms",
+    "point": [
+      -6.288730168379345,
+      4.3400000011920925,
+      -3.9843040812262984
+    ],
+    "building": "Kings Row Classrooms",
+    "id": "34317ee5-e783-4314-8cbc-6b14f5baecdf",
+    "room": "64",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "south-classrooms",
+    "point": [
+      -17.975674031634043,
+      4.340000001192107,
+      -4.484795816243434
+    ],
+    "building": "Kings Row Classrooms",
+    "id": "ba76cb0f-a360-418c-b6b7-448125054ec9",
+    "room": "65",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "south-classrooms",
+    "point": [
+      5.821985705043318,
+      4.340000001192085,
+      -2.4666682925413284
+    ],
+    "building": "Kings Row Classrooms",
+    "id": "d7402083-178e-4e19-abb9-a5b105182925",
+    "room": "63",
+    "teacher": "",
+    "subject": "英语",
+    "floor": ""
+  },
+  {
+    "owner": "south-classrooms",
+    "point": [
+      17.197652003128482,
+      4.3400000011921,
+      -0.9399110329423195
+    ],
+    "building": "Kings Row Classrooms",
+    "id": "1fb0eb87-8421-4321-b1e0-f1edc5e51059",
+    "room": "62",
+    "teacher": "",
+    "subject": "其他",
+    "floor": ""
+  },
+  {
+    "owner": "weight",
+    "point": [
+      6.149220015942433,
+      4.3400000011920925,
+      -5.422433991241348
+    ],
+    "building": "West Classrooms",
+    "id": "256c3559-7acf-4818-a33d-152b0f057748",
+    "room": "67",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "weight",
+    "point": [
+      5.055427636357905,
+      4.3400000011920925,
+      6.3851453697856755
+    ],
+    "building": "West Classrooms",
+    "id": "a0e7a492-4410-43fd-a053-52e974befd6f",
+    "room": "66",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      26.98228043064843,
+      10.140000191926957,
+      -8.117930439536849
+    ],
+    "building": "New Building",
+    "id": "2f9bfbdf-2de2-402d-883f-1da55c0a5ccb",
+    "room": "20",
+    "teacher": "",
+    "subject": "",
+    "floor": "一楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      27.639166162980956,
+      10.140000191926957,
+      -0.003227807334667432
+    ],
+    "building": "New Building",
+    "id": "907d2a1c-865a-47e8-b9f0-c9c67652f8ee",
+    "room": "21",
+    "teacher": "",
+    "subject": "",
+    "floor": "一楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      26.58056499402153,
+      10.140000191926957,
+      8.635930153335067
+    ],
+    "building": "New Building",
+    "id": "911ea341-5a30-4b1b-9ed9-5a12874c9728",
+    "room": "22",
+    "teacher": "",
+    "subject": "",
+    "floor": "一楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      34.92293214059502,
+      10.140000191926957,
+      -9.67588650708501
+    ],
+    "building": "New Building",
+    "id": "c399d66a-9b52-474c-893a-ed778745a31e",
+    "room": "200",
+    "teacher": "",
+    "subject": "",
+    "floor": "二楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      34.55091408066919,
+      10.140000191926957,
+      0.8217089341875123
+    ],
+    "building": "New Building",
+    "id": "c1a5f1a0-1625-42f0-afa3-55fbaf07991d",
+    "room": "201",
+    "teacher": "",
+    "subject": "",
+    "floor": "二楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      34.09002454626956,
+      10.140000191926957,
+      10.476772469464834
+    ],
+    "building": "New Building",
+    "id": "578572e9-c21e-4a4d-bce0-302fdeb7d04e",
+    "room": "202",
+    "teacher": "",
+    "subject": "",
+    "floor": "二楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      18.964562072174402,
+      10.140000191926957,
+      11.94062812233193
+    ],
+    "building": "New Building",
+    "id": "3d19a2d4-8965-49b5-ae27-4faeb07edcd3",
+    "room": "23",
+    "teacher": "",
+    "subject": "",
+    "floor": "一楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      5.7118071535971495,
+      10.140000191926957,
+      9.45115583132116
+    ],
+    "building": "New Building",
+    "id": "b1969dc2-a367-4bd2-bf32-04f864bdae0e",
+    "room": "24",
+    "teacher": "",
+    "subject": "",
+    "floor": "一楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      -7.713888439850095,
+      10.140000191926957,
+      7.983890115294713
+    ],
+    "building": "New Building",
+    "id": "8835da81-fbc2-400d-8164-f7128f425da1",
+    "room": "25",
+    "teacher": "",
+    "subject": "",
+    "floor": "一楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      -19.76583595861416,
+      10.140000191926957,
+      7.211741372499887
+    ],
+    "building": "New Building",
+    "id": "0283ee64-871d-4fd7-a248-a4b675cf9342",
+    "room": "26",
+    "teacher": "",
+    "subject": "",
+    "floor": "一楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      -19.665480678185872,
+      10.140000191926957,
+      13.957844458565944
+    ],
+    "building": "New Building",
+    "id": "a9ce5da5-37b5-4fee-96cd-4dd820bced34",
+    "room": "206",
+    "teacher": "",
+    "subject": "",
+    "floor": "二楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      4.843175645397963,
+      10.140000191926957,
+      16.937003510881766
+    ],
+    "building": "New Building",
+    "id": "360c40eb-8bf2-48fb-9b5f-be0588e57745",
+    "room": "204",
+    "teacher": "",
+    "subject": "",
+    "floor": "二楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      18.121121800347865,
+      10.140000191926957,
+      18.17223520821574
+    ],
+    "building": "New Building",
+    "id": "8bed2a6c-5f90-40ec-99c7-e23d47d8465b",
+    "room": "203",
+    "teacher": "",
+    "subject": "",
+    "floor": "二楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      -26.078348755864255,
+      10.140000191926957,
+      -14.100931135998223
+    ],
+    "building": "New Building",
+    "id": "de19d636-bcbd-4274-82b3-e25cb9fcf767",
+    "room": "29",
+    "teacher": "",
+    "subject": "",
+    "floor": "一楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      -27.622485045975893,
+      10.140000191926942,
+      -5.609589512822936
+    ],
+    "building": "New Building",
+    "id": "c373761c-6657-45d9-a11d-3bcc625e9e05",
+    "room": "28",
+    "teacher": "",
+    "subject": "",
+    "floor": "一楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      -28.5072382471932,
+      10.140000191926957,
+      1.7131933620997302
+    ],
+    "building": "New Building",
+    "id": "9fd13614-56c5-4fb7-9446-07d3d8ddb799",
+    "room": "27",
+    "teacher": "",
+    "subject": "",
+    "floor": "一楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      -34.905258987971116,
+      10.140000191926957,
+      -16.116826383524057
+    ],
+    "building": "New Building",
+    "id": "75e4cfb7-112a-4903-8cc3-fd19b36bb1e5",
+    "room": "209",
+    "teacher": "",
+    "subject": "历史",
+    "floor": "二楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      -36.11683635492172,
+      10.140000191926957,
+      -7.546212527128034
+    ],
+    "building": "New Building",
+    "id": "7fdec7e0-fd04-48b1-bdee-e7751b022b7e",
+    "room": "208",
+    "teacher": "",
+    "subject": "历史",
+    "floor": "二楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      -36.63613777667612,
+      10.14000019192697,
+      0.34240752429298027
+    ],
+    "building": "New Building",
+    "id": "747347fd-408a-439f-a63b-e86a411f9a63",
+    "room": "207",
+    "teacher": "",
+    "subject": "其他",
+    "floor": "二楼"
+  },
+  {
+    "owner": "way-470980972",
+    "point": [
+      -8.113717102640479,
+      10.140000191926957,
+      15.149912864223609
+    ],
+    "building": "New Building",
+    "id": "f6d09089-6653-4e60-8244-db723ea9c770",
+    "room": "205",
+    "teacher": "",
+    "subject": "语言",
+    "floor": "二楼"
+  },
+  {
+    "owner": "theater",
+    "point": [
+      -10.163910877995448,
+      4.640000191926956,
+      20.056386398990924
+    ],
+    "building": "Music Classrooms",
+    "id": "67dbb805-bbfa-4820-97fa-41c603202a03",
+    "room": "92",
+    "teacher": "",
+    "subject": "艺术",
+    "floor": ""
+  },
+  {
+    "owner": "theater",
+    "point": [
+      -1.0951476433783114,
+      4.640000191926956,
+      20.19009777689333
+    ],
+    "building": "Music Classrooms",
+    "id": "952e7b50-61e4-4c3b-8af7-608999a00135",
+    "room": "93",
+    "teacher": "",
+    "subject": "艺术",
+    "floor": ""
+  },
+  {
+    "owner": "theater",
+    "point": [
+      -20.826158889119085,
+      4.640000191926956,
+      -19.312779114594974
+    ],
+    "building": "Music Classrooms",
+    "id": "bedad7af-5dc0-43f9-ab7a-6b7cd8ca6152",
+    "room": "91",
+    "teacher": "Aron Campbell",
+    "subject": "音乐",
+    "floor": ""
+  },
+  {
+    "owner": "theater",
+    "point": [
+      10.97595787041908,
+      4.640000191926956,
+      29.09818884090992
+    ],
+    "building": "Music Classrooms",
+    "id": "860561e6-9088-4603-a213-5ea0739eb386",
+    "room": "94",
+    "teacher": "",
+    "subject": "艺术",
+    "floor": ""
+  },
+  {
+    "owner": "way-470981037",
+    "point": [
+      0.5403905704999943,
+      3.2400000965595246,
+      -3.6006391099483084
+    ],
+    "building": "Campus building",
+    "id": "50dd8836-a2fe-4695-92c9-2a8108e94f43",
+    "room": "97",
+    "teacher": "",
+    "subject": "艺术",
+    "floor": ""
+  },
+  {
+    "owner": "way-470981037",
+    "point": [
+      -1.0435203748839967,
+      3.2400000965595246,
+      3.070529801836254
+    ],
+    "building": "Campus building",
+    "id": "8ad5b9ce-b2f2-4d7e-b9d2-e982a0c7389a",
+    "room": "96",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "way-470980985",
+    "point": [
+      0.557471659581239,
+      3.439999905824647,
+      -4.832772616976287
+    ],
+    "building": "Campus building",
+    "id": "10ce3e99-e735-4c76-b49b-60ec3564949f",
+    "room": "98",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  },
+  {
+    "owner": "way-470980985",
+    "point": [
+      -0.5374882804673575,
+      3.4399999058246613,
+      2.498273533206868
+    ],
+    "building": "Campus building",
+    "id": "5bc0a56f-a39c-4a81-a6ea-73d67da8aae6",
+    "room": "95",
+    "teacher": "",
+    "subject": "",
+    "floor": ""
+  }
+]

@@ -1,6 +1,7 @@
 import path from 'node:path';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/postcss';
 
 export default defineConfig({
   root: path.resolve(__dirname, 'static'),
@@ -13,8 +14,9 @@ export default defineConfig({
     },
   },
   plugins: [react()],
+  css: { postcss: { plugins: [tailwindcss()] } },
   build: {
-    outDir: 'static-dist',
+    outDir: path.resolve(__dirname, 'static-dist'),
     emptyOutDir: true,
     rollupOptions: {
       input: path.resolve(__dirname, 'static/index.html'),
